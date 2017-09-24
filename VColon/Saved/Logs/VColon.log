@@ -1,9 +1,9 @@
-﻿Log file open, 09/24/17 12:44:33
+﻿Log file open, 09/24/17 14:41:25
 LogInit:Display: Running engine for game: VColon
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(389105524) SRandInit(389105524).
+LogInit:Display: RandInit(-1698117704) SRandInit(-1698117704).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.169662
+LogStats: Stats thread started at 0.096706
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -20,8 +20,8 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.16-CL-3561208
-LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
 LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
 LogInit: Net CL: 3452394
 LogDevObjectVersion: Number of dev versions registered: 16
@@ -41,103 +41,867 @@ LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
 LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
 LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
-LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line: -EpicPortal 
-LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.24-16.44.34:667][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.24-16.44.34:667][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.24-16.44.34:755][  0]LogInit: Computer: ZACHARY
-[2017.09.24-16.44.34:755][  0]LogInit: User: Zachary
-[2017.09.24-16.44.34:755][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.09.24-16.44.34:755][  0]LogInit: High frequency timer resolution =2.435774 MHz
-[2017.09.24-16.44.34:756][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.09.24-16.44.34:756][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.24-16.44.34:756][  0]LogMemory: Process Physical Memory: 272.58 MB used, 272.58 MB peak
-[2017.09.24-16.44.34:756][  0]LogMemory: Process Virtual Memory: 260.84 MB used, 260.84 MB peak
-[2017.09.24-16.44.34:756][  0]LogMemory: Physical Memory: 6170.43 MB used,  1940.75 MB free, 8111.18 MB total
-[2017.09.24-16.44.34:756][  0]LogMemory: Virtual Memory: 638.48 MB used,  1940.75 MB free, 134217728.00 MB total
-[2017.09.24-16.44.34:909][  0]LogInit: Using OS detected language (en-US).
-[2017.09.24-16.44.34:909][  0]LogInit: Using OS detected locale (en-US).
-[2017.09.24-16.44.35:070][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.09.24-16.44.41:148][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.24-16.44.42:885][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
-[2017.09.24-16.44.42:885][  0]LogD3D11RHI:       2019/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.09.24-16.44.42:893][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.09.24-16.44.42:893][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.09.24-16.44.42:895][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.24-16.44.42:895][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.24-16.44.42:895][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.24-16.44.42:905][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.24-16.44.42:905][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.24-16.44.42:905][  0]LogWindows: EnumDisplayDevices:
-[2017.09.24-16.44.42:905][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.09.24-16.44.42:905][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.09.24-16.44.42:905][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.09.24-16.44.42:905][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.09.24-16.44.42:905][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
-[2017.09.24-16.44.42:905][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.09.24-16.44.42:905][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.09.24-16.44.42:905][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.24-16.44.44:406][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.24-16.44.44:549][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.09.24-16.44.44:552][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Zachary/Documents/Indie Projects/VColon/Intermediate/Shaders/WorkingDirectory/6776/).
-[2017.09.24-16.44.44:552][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Zachary/AppData/Local/Temp/UnrealShaderWorkingDir/4D93DB0C48B60A7A7565E9979ED8FD30/'.
-[2017.09.24-16.44.44:552][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.09.24-16.44.49:113][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.24-16.44.49:335][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.09.24-16.44.49:567][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.24-16.44.49:798][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.09.24-16.44.50:099][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.09.24-16.44.50:270][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.24-16.44.50:497][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.24-16.44.50:726][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.24-16.44.50:945][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.09.24-16.44.51:181][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.09.24-16.44.51:406][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.24-16.44.51:631][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.24-16.44.51:863][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.24-16.44.52:052][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.24-16.44.52:270][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.24-16.44.52:700][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.24-16.44.52:700][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.24-16.44.52:887][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.09.24-16.44.53:213][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.09.24-16.44.53:345][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.09.24-16.44.53:566][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.24-16.44.53:792][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.24-16.44.54:029][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.24-16.44.54:323][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.09.24-16.44.54:324][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.09.24-16.44.55:774][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.09.24-16.44.56:841][  0]LogDerivedDataCache: Loaded boot cache 1.07s 90MB C:/Users/Zachary/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.09.24-16.44.56:841][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zachary/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.09.24-16.44.56:842][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zachary/Documents/Indie Projects/VColon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.24-16.44.56:842][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.24-16.44.56:842][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Zachary/Documents/Indie Projects/VColon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.24-16.44.56:842][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.24-16.44.56:912][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.24-16.44.56:929][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zachary/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.24-16.44.56:969][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.24-16.44.56:970][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.24-16.44.56:981][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.24-16.44.56:982][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.24-16.44.58:939][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.24-16.44.59:087][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.24-16.44.59:307][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.24-16.44.59:373][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.24-16.44.59:453][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.24-16.44.59:453][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.09.24-16.44.59:453][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.09.24-16.45.01:584][  0]LogNetVersion: VColon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2307463867)
-[2017.09.24-16.45.01:694][  0]LogAssetRegistry: FAssetRegistry took 0.0325 seconds to start up
-[2017.09.24-16.45.01:801][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.060853 seconds
-[2017.09.24-16.45.01:810][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.09.24-16.45.01:810][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.09.24-16.45.01:810][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.24-16.45.01:978][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.24-18.41.26:160][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.24-18.41.26:160][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.24-18.41.26:181][  0]LogInit: Computer: MSI
+[2017.09.24-18.41.26:181][  0]LogInit: User: bsteen
+[2017.09.24-18.41.26:181][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.24-18.41.26:181][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2017.09.24-18.41.26:182][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.24-18.41.26:182][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.24-18.41.26:182][  0]LogMemory: Process Physical Memory: 274.11 MB used, 274.11 MB peak
+[2017.09.24-18.41.26:182][  0]LogMemory: Process Virtual Memory: 261.13 MB used, 261.13 MB peak
+[2017.09.24-18.41.26:182][  0]LogMemory: Physical Memory: 5640.84 MB used,  10663.00 MB free, 16303.85 MB total
+[2017.09.24-18.41.26:182][  0]LogMemory: Virtual Memory: 624.15 MB used,  10663.00 MB free, 134217728.00 MB total
+[2017.09.24-18.41.26:944][  0]LogInit: Using OS detected language (en-US).
+[2017.09.24-18.41.26:944][  0]LogInit: Using OS detected locale (en-CA).
+[2017.09.24-18.41.26:949][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.24-18.41.28:189][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.24-18.41.28:827][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.09.24-18.41.28:827][  0]LogD3D11RHI:       2009/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.24-18.41.28:834][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.09.24-18.41.28:834][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.24-18.41.28:836][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.24-18.41.28:836][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.24-18.41.28:836][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.24-18.41.28:840][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.24-18.41.28:840][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2017.09.24-18.41.28:840][  0]LogWindows: EnumDisplayDevices:
+[2017.09.24-18.41.28:841][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.09.24-18.41.28:841][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.09.24-18.41.28:842][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.09.24-18.41.28:842][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.24-18.41.28:842][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.09.24-18.41.28:842][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.24-18.41.28:842][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.24-18.41.28:842][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.24-18.41.28:892][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.24-18.41.28:905][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.24-18.41.28:906][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Intermediate/Shaders/WorkingDirectory/14072/).
+[2017.09.24-18.41.28:906][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bsteen/AppData/Local/Temp/UnrealShaderWorkingDir/0D2D2FE74999B7BE774ED59F076E4208/'.
+[2017.09.24-18.41.28:906][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.24-18.41.30:184][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.24-18.41.30:254][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.24-18.41.30:326][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.24-18.41.30:465][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.24-18.41.30:549][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.24-18.41.30:620][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.24-18.41.30:690][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.24-18.41.30:762][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.24-18.41.30:838][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.24-18.41.30:951][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.24-18.41.31:025][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.24-18.41.31:095][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.24-18.41.31:163][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.24-18.41.31:232][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.24-18.41.31:304][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.24-18.41.31:483][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.24-18.41.31:483][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.24-18.41.31:542][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.24-18.41.31:696][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.24-18.41.31:740][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.24-18.41.31:813][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.24-18.41.31:883][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.24-18.41.31:953][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.24-18.41.32:022][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.24-18.41.32:022][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.24-18.41.32:899][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.24-18.41.33:009][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.24-18.41.33:009][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.24-18.41.33:009][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.24-18.41.33:009][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.24-18.41.33:009][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.24-18.41.33:009][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.24-18.41.33:045][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.24-18.41.33:060][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bsteen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.24-18.41.33:078][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.24-18.41.33:078][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.24-18.41.33:080][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.24-18.41.33:080][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.24-18.41.33:547][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.24-18.41.33:627][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.24-18.41.33:821][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.24-18.41.33:892][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.24-18.41.33:976][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.24-18.41.33:976][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.24-18.41.33:976][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.24-18.41.34:758][  0]LogNetVersion: VColon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2307463867)
+[2017.09.24-18.41.34:827][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.09.24-18.41.34:920][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.058546 seconds
+[2017.09.24-18.41.34:926][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.24-18.41.34:926][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.24-18.41.34:926][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.24-18.41.35:020][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.24-18.41.38:811][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.24-18.41.38:874][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.24-18.41.39:731][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.24-18.41.40:410][  0]SourceControl: Info Source control is disabled
+[2017.09.24-18.41.40:411][  0]SourceControl: Info Source control is disabled
+[2017.09.24-18.41.40:486][  0]SourceControl: Info Source control is disabled
+[2017.09.24-18.41.40:573][  0]SourceControl: Info Source control is disabled
+[2017.09.24-18.41.41:805][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.24-18.41.42:813][  0]LogEngine: Initializing Engine...
+[2017.09.24-18.41.42:814][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.24-18.41.43:061][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.24-18.41.43:061][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.24-18.41.43:256][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.24-18.41.43:281][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.24-18.41.43:781][  0]LogInit: FAudioDevice initialized.
+[2017.09.24-18.41.43:831][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.24-18.41.43:837][  0]LogInit: Texture streaming: Enabled
+[2017.09.24-18.41.44:014][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.24-18.41.44:367][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.24-18.41.44:883][  0]LogInit: Transaction tracking system initialized
+[2017.09.24-18.41.45:458][  0]BlueprintLog: New page: Editor Load
+[2017.09.24-18.41.47:483][  0]LocalizationService: Info Localization service is disabled
+[2017.09.24-18.41.48:714][  0]LogConsoleResponse:Display: 
+[2017.09.24-18.41.48:902][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.24-18.41.48:902][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.24-18.41.49:670][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/' took 0.03s
+[2017.09.24-18.41.51:376][  0]SourceControl: Info Source control is disabled
+[2017.09.24-18.41.51:379][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
+[2017.09.24-18.41.51:394][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.09.24-18.41.51:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.09.24-18.41.51:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.09.24-18.41.51:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.09.24-18.41.51:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.09.24-18.41.51:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.09.24-18.41.51:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.09.24-18.41.51:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.09.24-18.41.51:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.09.24-18.41.51:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.09.24-18.41.51:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.09.24-18.41.51:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.09.24-18.41.51:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.09.24-18.41.51:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.09.24-18.41.51:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.09.24-18.41.51:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.09.24-18.41.51:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.09.24-18.41.51:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.09.24-18.41.51:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Fire01.uasset"
+[2017.09.24-18.41.51:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.09.24-18.41.51:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.09.24-18.41.51:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.09.24-18.41.51:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Light01.uasset"
+[2017.09.24-18.41.51:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.09.24-18.41.51:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Light02.uasset"
+[2017.09.24-18.41.51:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.09.24-18.41.51:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.09.24-18.41.51:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.09.24-18.41.51:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.09.24-18.41.51:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.09.24-18.41.51:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.09.24-18.41.51:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.09.24-18.41.51:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.09.24-18.41.51:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.09.24-18.41.51:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Steam01.uasset"
+[2017.09.24-18.41.51:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.09.24-18.41.51:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.09.24-18.41.51:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.09.24-18.41.51:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.09.24-18.41.51:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.09.24-18.41.51:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.09.24-18.41.51:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.09.24-18.41.51:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.09.24-18.41.51:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.09.24-18.41.51:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.09.24-18.41.51:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.09.24-18.41.51:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.09.24-18.41.51:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.09.24-18.41.51:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.09.24-18.41.51:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.09.24-18.41.51:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.09.24-18.41.51:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.09.24-18.41.51:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.09.24-18.41.51:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.09.24-18.41.51:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.09.24-18.41.51:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.09.24-18.41.51:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.09.24-18.41.51:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Maps/StarterMap.umap"
+[2017.09.24-18.41.51:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.09.24-18.41.51:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.09.24-18.41.51:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.09.24-18.41.51:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.09.24-18.41.51:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.09.24-18.41.51:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.09.24-18.41.51:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.09.24-18.41.51:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.09.24-18.41.51:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.09.24-18.41.51:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.09.24-18.41.51:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.09.24-18.41.51:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.09.24-18.41.51:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.09.24-18.41.51:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.09.24-18.41.51:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.09.24-18.41.51:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.09.24-18.41.51:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.09.24-18.41.51:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.09.24-18.41.51:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.09.24-18.41.51:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.09.24-18.41.51:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.09.24-18.41.51:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.09.24-18.41.51:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.09.24-18.41.51:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.09.24-18.41.51:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.09.24-18.41.51:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.09.24-18.41.51:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.09.24-18.41.51:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.09.24-18.41.51:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.09.24-18.41.51:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.09.24-18.41.51:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.09.24-18.41.51:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.09.24-18.41.51:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.09.24-18.41.51:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.09.24-18.41.51:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.09.24-18.41.51:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.09.24-18.41.51:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.09.24-18.41.51:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.09.24-18.41.51:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.09.24-18.41.51:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.09.24-18.41.51:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.09.24-18.41.51:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.09.24-18.41.51:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.09.24-18.41.51:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.09.24-18.41.51:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.09.24-18.41.51:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.09.24-18.41.51:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.09.24-18.41.51:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.09.24-18.41.51:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.09.24-18.41.51:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.09.24-18.41.51:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.09.24-18.41.51:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.09.24-18.41.51:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.09.24-18.41.51:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.09.24-18.41.51:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.09.24-18.41.51:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.09.24-18.41.51:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.09.24-18.41.51:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.09.24-18.41.51:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.09.24-18.41.51:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.09.24-18.41.51:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.09.24-18.41.51:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.09.24-18.41.51:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.09.24-18.41.51:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.09.24-18.41.51:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.09.24-18.41.51:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_Door.uasset"
+[2017.09.24-18.41.51:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.09.24-18.41.51:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.09.24-18.41.51:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.09.24-18.41.51:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.09.24-18.41.51:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.09.24-18.41.51:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.09.24-18.41.51:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.09.24-18.41.51:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.09.24-18.41.51:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.09.24-18.41.51:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.09.24-18.41.51:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.09.24-18.41.51:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.09.24-18.41.51:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.09.24-18.41.51:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.09.24-18.41.51:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.09.24-18.41.51:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.09.24-18.41.51:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.09.24-18.41.51:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.09.24-18.41.51:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.09.24-18.41.51:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.09.24-18.41.51:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.09.24-18.41.51:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.09.24-18.41.51:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.09.24-18.41.51:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.09.24-18.41.51:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.09.24-18.41.51:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.09.24-18.41.51:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.09.24-18.41.51:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.09.24-18.41.51:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.09.24-18.41.51:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.09.24-18.41.51:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.09.24-18.41.51:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.09.24-18.41.51:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.09.24-18.41.51:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.09.24-18.41.51:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.09.24-18.41.51:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.09.24-18.41.51:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.09.24-18.41.51:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.09.24-18.41.51:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.09.24-18.41.51:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.09.24-18.41.51:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.09.24-18.41.51:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.09.24-18.41.51:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.09.24-18.41.51:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.09.24-18.41.51:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.09.24-18.41.52:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.09.24-18.41.52:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.09.24-18.41.52:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.09.24-18.41.52:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.09.24-18.41.52:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.09.24-18.41.52:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.09.24-18.41.52:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.09.24-18.41.52:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.09.24-18.41.52:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.09.24-18.41.52:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.09.24-18.41.52:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.09.24-18.41.52:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.09.24-18.41.52:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.09.24-18.41.52:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.09.24-18.41.52:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.09.24-18.41.52:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.09.24-18.41.52:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.09.24-18.41.52:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.09.24-18.41.52:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.09.24-18.41.52:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.09.24-18.41.52:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.09.24-18.41.52:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.09.24-18.41.52:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.09.24-18.41.52:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.09.24-18.41.52:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.09.24-18.41.52:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.09.24-18.41.52:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.09.24-18.41.52:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.09.24-18.41.52:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.09.24-18.41.52:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.09.24-18.41.52:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.09.24-18.41.52:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.09.24-18.41.52:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.09.24-18.41.52:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.09.24-18.41.52:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.09.24-18.41.52:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.09.24-18.41.52:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.09.24-18.41.52:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.09.24-18.41.52:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.09.24-18.41.52:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.09.24-18.41.52:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.09.24-18.41.52:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.09.24-18.41.52:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.09.24-18.41.52:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.09.24-18.41.52:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.09.24-18.41.52:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.09.24-18.41.52:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.09.24-18.41.52:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.09.24-18.41.52:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.09.24-18.41.52:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.09.24-18.41.52:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.09.24-18.41.52:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.09.24-18.41.52:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.09.24-18.41.52:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.09.24-18.41.52:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.09.24-18.41.52:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.09.24-18.41.52:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.09.24-18.41.52:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.09.24-18.41.52:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.09.24-18.41.52:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.09.24-18.41.52:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.09.24-18.41.52:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.09.24-18.41.52:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.09.24-18.41.52:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.09.24-18.41.52:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.09.24-18.41.52:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.09.24-18.41.52:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.09.24-18.41.52:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.09.24-18.41.52:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.09.24-18.41.52:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.09.24-18.41.52:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.09.24-18.41.52:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.09.24-18.41.52:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.09.24-18.41.52:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.09.24-18.41.52:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.09.24-18.41.52:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.09.24-18.41.52:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.09.24-18.41.52:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.09.24-18.41.52:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.09.24-18.41.52:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.09.24-18.41.52:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.09.24-18.41.52:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.09.24-18.41.52:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.09.24-18.41.52:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.09.24-18.41.52:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.09.24-18.41.52:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.09.24-18.41.52:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.09.24-18.41.52:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.09.24-18.41.52:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.09.24-18.41.52:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.09.24-18.41.52:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.09.24-18.41.52:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.09.24-18.41.52:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.09.24-18.41.52:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.09.24-18.41.52:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.09.24-18.41.52:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.09.24-18.41.52:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.09.24-18.41.52:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.09.24-18.41.52:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.09.24-18.41.52:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.09.24-18.41.52:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.09.24-18.41.52:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.09.24-18.41.52:971][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.09.24-18.41.53:115][  0]LogSavePackage: Save=16.57ms
+[2017.09.24-18.41.53:115][  0]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/Floor_400x4009A95CEB44D69144FE738A7A35883CA64.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.09.24-18.41.53:125][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.09.24-18.41.53:125][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.09.24-18.41.53:128][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.24-18.41.53:128][  0]LightingResults: New page: Lighting Build
+[2017.09.24-18.41.53:265][  0]MapCheck: New page: Map Check
+[2017.09.24-18.41.53:265][  0]LightingResults: New page: Lighting Build
+[2017.09.24-18.41.53:938][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.24-18.41.53:949][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.24-18.41.53:964][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.24-18.41.54:144][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 179.837ms to complete.
+[2017.09.24-18.41.54:144][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.017
+[2017.09.24-18.41.54:340][  0]LogCollectionManager: Loaded 0 collections in 0.002941 seconds
+[2017.09.24-18.41.54:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/Collections/' took 0.01s
+[2017.09.24-18.41.54:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/Developers/bsteen/Collections/' took 0.01s
+[2017.09.24-18.41.54:475][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/Collections/' took 0.01s
+[2017.09.24-18.41.54:475][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.09.24-18.41.54:487][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2329 classes and 491 folders.
+[2017.09.24-18.41.54:637][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.24-18.41.54:710][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.24-18.41.54:778][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.09.24-18.41.54:829][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.24-18.41.54:838][  0]LogSlate: Took 0.000710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.24-18.41.54:842][  0]LogSlate: Took 0.000600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.24-18.41.54:853][  0]LogSlate: Took 0.000741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.24-18.41.54:921][  0]LogRenderer: Reallocating scene render targets to support 968x436 NumSamples 1 (Frame:1).
+[2017.09.24-18.41.55:006][  0]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.24-18.41.55:065][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.24-18.41.55:169][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.24-18.41.55:169][  0]LogLoad: (Engine Initialization) Total time: 31.31 seconds
+[2017.09.24-18.41.55:169][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.26 seconds
+[2017.09.24-18.41.55:169][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.24-18.41.55:178][  0]LogOcInput: OculusInput pre-init called
+[2017.09.24-18.41.55:178][  0]LogHMD: Starting GearVRController plugin
+[2017.09.24-18.41.57:247][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.24-18.41.57:304][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/' took 2.12s
+[2017.09.24-18.41.57:319][  1]LogAssetRegistry: Asset discovery search completed in 22.5139 seconds
+[2017.09.24-18.41.57:322][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.24-18.41.57:322][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2017.09.24-18.42.04:718][202]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-18.42.04:984][202]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.24-18.42.04:984][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-18.42.04:985][202]PIE: New page: PIE session: TopDownExampleMap (Sep 24, 2017, 10:42:04 AM)
+[2017.09.24-18.42.04:985][202]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.24-18.42.05:024][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038957s)
+[2017.09.24-18.42.05:025][202]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.24-18.42.05:026][202]LogPlayLevel: PIE: World Init took: (0.001720s)
+[2017.09.24-18.42.05:026][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.041131s)
+[2017.09.24-18.42.05:092][202]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.24-18.42.05:175][202]LogInit: FAudioDevice initialized.
+[2017.09.24-18.42.05:222][202]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.24-18.42.05:229][202]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.24-14.42.05
+[2017.09.24-18.42.05:230][202]LogWorld: Bringing up level for play took: 0.004219
+[2017.09.24-18.42.05:319][202]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.09.24-18.42.05:320][202]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.61
+[2017.09.24-18.42.05:320][202]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.24-18.42.13:334][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.24-18.42.13:434][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.24-18.42.17:300][549]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2017.09.24-18.42.18:801][593]Cmd: DELETE
+[2017.09.24-18.42.18:801][593]Cmd: ACTOR DELETE
+[2017.09.24-18.42.18:824][593]LogEditorActor: Deleted Actor: TopDownCharacter_C
+[2017.09.24-18.42.18:843][593]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2017.09.24-18.42.22:786][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Interact' for  InputAction Interact
+[2017.09.24-18.42.22:786][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Click' for  InputAction Click
+[2017.09.24-18.42.22:787][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.09.24-18.42.22:787][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Sprint' for  InputAction Sprint
+[2017.09.24-18.42.22:787][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Click' for  InputAction Click
+[2017.09.24-18.42.22:787][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Input Axis Event references unknown Axis 'LookRight' for  InputAxis LookRight
+[2017.09.24-18.42.22:787][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.09.24-18.42.22:788][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'changeCamera' for  InputAction changeCamera
+[2017.09.24-18.42.22:789][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Inventory' for  InputAction Inventory
+[2017.09.24-18.42.22:808][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0058.95] Compile of CH_MyChar successful, but with 9 Warning(s) [in 34 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.09.24-18.42.22:810][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0058.95] Compile of CH_MyChar successful, but with 10 Warning(s) [in 1 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.09.24-18.42.22:810][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0058.95] Compile of CH_MyChar successful, but with 11 Warning(s) [in 0 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.09.24-18.42.22:877][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Interact' for  InputAction Interact
+[2017.09.24-18.42.22:877][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Click' for  InputAction Click
+[2017.09.24-18.42.22:879][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.09.24-18.42.22:879][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Sprint' for  InputAction Sprint
+[2017.09.24-18.42.22:879][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Click' for  InputAction Click
+[2017.09.24-18.42.22:879][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Input Axis Event references unknown Axis 'LookRight' for  InputAxis LookRight
+[2017.09.24-18.42.22:879][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.09.24-18.42.22:881][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'changeCamera' for  InputAction changeCamera
+[2017.09.24-18.42.22:882][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning InputAction Event references unknown Action 'Inventory' for  InputAction Inventory
+[2017.09.24-18.42.22:914][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0059.05] Compile of CH_MyChar successful, but with 9 Warning(s) [in 53 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.09.24-18.42.22:914][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0059.05] Compile of CH_MyChar successful, but with 10 Warning(s) [in 0 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.09.24-18.42.22:916][666]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0059.05] Compile of CH_MyChar successful, but with 11 Warning(s) [in 1 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.09.24-18.42.24:816][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.24-18.42.29:855][825]LogSlate: Took 0.000564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.24-18.42.30:381][825]LogSlate: Took 0.000477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.24-18.42.30:611][825]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 112 classes and 0 folders.
+[2017.09.24-18.42.31:382][825]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.24-18.42.34:351][893]LogSlate: Took 0.000532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.24-18.42.38:954][183]LogSavePackage: Save=268.84ms
+[2017.09.24-18.42.38:954][183]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMap00E935C848AEC5A2FCA27D9A0D5B9A5A.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.09.24-18.42.38:964][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.09.24-18.42.39:184][183]LogSavePackage: Save=194.12ms
+[2017.09.24-18.42.39:184][183]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMap_BuiltDataE37FDEE545D0DF7440262EBCD2E5B2E0.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.09.24-18.42.39:188][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.09.24-18.42.51:648][496]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.09.24-18.42.51:786][500]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VColon
+[2017.09.24-18.42.51:786][500]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.09.24-18.42.51:786][500]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.09.24-18.42.51:786][500]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.09.24-18.42.51:788][500]LogTemp: BranchPath = MSI/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = MSI/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.09.24-18.42.51:800][500]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\bsteen\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.24-18.43.05:360][837]Cmd: TRANSACTION UNDO
+[2017.09.24-18.43.05:360][837]LogEditorTransaction: Undo Clear Children
+[2017.09.24-18.43.05:419][837]LogSlate: Took 0.000711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.24-18.44.07:298][102]LogSavePackage: Save=333.12ms
+[2017.09.24-18.44.07:298][102]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMap528C5C92491B898457125B843348AD92.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.09.24-18.44.07:309][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.09.24-18.44.07:526][102]LogSavePackage: Save=173.41ms
+[2017.09.24-18.44.07:526][102]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMap_BuiltData4536029249F6D7D9B812FEBE57BAAE2F.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.09.24-18.44.07:530][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.09.24-18.45.11:177][651]LogSavePackage: Save=279.27ms
+[2017.09.24-18.45.11:177][651]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMapC5BD789A4ECDEEC6385006820CB9983A.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.09.24-18.45.11:182][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.09.24-18.45.11:361][651]LogSavePackage: Save=151.16ms
+[2017.09.24-18.45.11:361][651]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMap_BuiltData9072CA924399F972CAB988A1B7497A58.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.09.24-18.45.11:365][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.09.24-18.46.22:257][383]LogSavePackage: Save=263.26ms
+[2017.09.24-18.46.22:257][383]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMapE22D2664448E29AAAE6F8DBB72803908.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.09.24-18.46.22:265][383]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.09.24-18.46.22:549][383]LogSavePackage: Save=246.36ms
+[2017.09.24-18.46.22:549][383]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMap_BuiltDataCABCCC8F43676067A1A9A2AAF71DFE36.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.09.24-18.46.22:559][383]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.09.24-18.46.24:684][447]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-18.46.24:699][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.24-18.46.24:699][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-18.46.24:699][447]PIE: New page: PIE session: TopDownExampleMap (Sep 24, 2017, 10:46:24 AM)
+[2017.09.24-18.46.24:699][447]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.24-18.46.24:772][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072614s)
+[2017.09.24-18.46.24:773][447]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.24-18.46.24:773][447]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2017.09.24-18.46.24:774][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.074271s)
+[2017.09.24-18.46.24:839][447]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.24-18.46.24:914][447]LogInit: FAudioDevice initialized.
+[2017.09.24-18.46.24:948][447]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.24-18.46.24:955][447]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.24-14.46.24
+[2017.09.24-18.46.24:955][447]LogWorld: Bringing up level for play took: 0.004819
+[2017.09.24-18.46.24:957][447]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.027
+[2017.09.24-18.46.24:958][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.24-18.46.31:920][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.24-18.46.32:035][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.24-18.46.37:293][722]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.09.24-18.46.37:438][726]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VColon
+[2017.09.24-18.46.37:438][726]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.09.24-18.46.37:438][726]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.09.24-18.46.37:438][726]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.09.24-18.46.37:439][726]LogTemp: BranchPath = MSI/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = MSI/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.09.24-18.46.37:451][726]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\bsteen\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.24-18.46.54:735][960]LogSavePackage: Save=298.83ms
+[2017.09.24-18.46.54:735][960]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMapA38467BE456A865F072B95ADBF5B930E.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.09.24-18.46.54:740][960]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.09.24-18.46.54:965][960]LogSavePackage: Save=203.08ms
+[2017.09.24-18.46.54:965][960]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMap_BuiltData76D7D14348C8BCD54BF95AB5ACA868A5.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.09.24-18.46.54:970][960]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.09.24-18.46.56:680][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2017.09.24-18.46.59:480][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2017.09.24-18.47.01:589][142]LogSavePackage: Save=182.03ms
+[2017.09.24-18.47.01:589][142]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMap8B5D214049CAF8C58080F78EAAF37475.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.09.24-18.47.01:594][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.09.24-18.47.01:736][142]LogSavePackage: Save=115.90ms
+[2017.09.24-18.47.01:736][142]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMap_BuiltDataCF32297E43E964771F4F3A9B164232FA.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.09.24-18.47.01:740][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.09.24-18.47.03:263][198]BlueprintLog: New page: Compile CH_MyChar
+[2017.09.24-18.47.04:710][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/CH_MyChar" FILE="../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/Characters/CH_MyChar.uasset" SILENT=true
+[2017.09.24-18.47.05:157][234]LogSavePackage: Save=439.46ms
+[2017.09.24-18.47.05:157][234]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/CH_MyChar92CF453148470E88DB74F7B998772883.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/Characters/CH_MyChar.uasset'
+[2017.09.24-18.47.05:162][234]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/Characters/CH_MyChar.uasset
+[2017.09.24-18.47.12:002][735]LogSavePackage: Save=148.60ms
+[2017.09.24-18.47.12:002][735]LogSavePackage: Moving '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/TopDownExampleMapADD59E5E493B1BCF3B520B9786C1C160.tmp' to '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.09.24-18.47.12:010][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.09.24-18.47.12:021][735]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.335
+[2017.09.24-18.47.12:128][735]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.24-18.47.12:346][736]Cmd: QUIT_EDITOR
+[2017.09.24-18.47.13:326][736]LogExit: Preparing to exit.
+[2017.09.24-18.47.14:201][736]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/' was aborted.
+[2017.09.24-18.47.14:257][736]LogExit: Editor shut down
+[2017.09.24-18.47.14:261][736]LogExit: Transaction tracking system shut down
+[2017.09.24-18.47.14:401][736]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.24-18.47.14:401][736]LogExit: Object subsystem successfully closed.
+[2017.09.24-18.47.14:432][736]LogD3D11RHI: Shutdown
+[2017.09.24-18.47.14:432][736]LogD3D11RHI: CleanupD3DDevice
+[2017.09.24-18.47.14:651][736]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.24-18.47.14:734][736]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2017.09.24-18.47.14:734][736]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.09.24-18.47.14:734][736]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.09.24-18.47.14:734][736]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.09.24-18.47.14:734][736]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.09.24-18.47.14:734][736]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.09.24-18.47.14:734][736]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.09.24-18.47.14:734][736]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.09.24-18.47.14:735][736]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.09.24-18.47.14:736][736]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.09.24-18.47.14:736][736]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.09.24-18.47.14:736][736]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.09.24-18.47.14:736][736]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/Collections/' was aborted.
+[2017.09.24-18.47.14:736][736]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/Developers/bsteen/Collections/' was aborted.
+[2017.09.24-18.47.14:736][736]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Documents/GitHub/VenusColonial/VColon/Saved/Collections/' was aborted.
+[2017.09.24-18.47.14:736][736]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.09.24-18.47.14:736][736]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.09.24-18.47.14:736][736]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.09.24-18.47.14:736][736]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.09.24-18.47.14:736][736]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.09.24-18.47.14:736][736]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.09.24-18.47.14:737][736]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.09.24-18.47.15:182][736]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.09.24-18.47.15:183][736]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.09.24-18.47.15:183][736]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.09.24-18.47.15:183][736]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.09.24-18.47.15:183][736]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.09.24-18.47.15:183][736]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.09.24-18.47.15:183][736]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.09.24-18.47.15:183][736]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.09.24-18.47.15:239][736]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.09.24-18.47.15:239][736]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.09.24-18.47.15:239][736]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.09.24-18.47.15:239][736]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.09.24-18.47.15:239][736]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.09.24-18.47.15:239][736]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.09.24-18.47.15:239][736]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.09.24-18.47.15:239][736]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.09.24-18.47.15:239][736]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.09.24-18.47.15:239][736]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.09.24-18.47.15:251][736]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.09.24-18.47.15:252][736]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.09.24-18.47.15:252][736]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.09.24-18.47.15:252][736]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.09.24-18.47.15:491][736]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.09.24-18.47.15:492][736]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.09.24-18.47.15:493][736]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.09.24-18.47.15:493][736]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.09.24-18.47.15:493][736]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.09.24-18.47.15:494][736]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.09.24-18.47.15:494][736]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.09.24-18.47.15:494][736]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.09.24-18.47.15:494][736]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.09.24-18.47.15:494][736]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.09.24-18.47.15:494][736]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.09.24-18.47.15:596][736]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.09.24-18.47.15:696][736]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.09.24-18.47.15:696][736]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.09.24-18.47.15:696][736]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.09.24-18.47.15:696][736]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.09.24-18.47.15:696][736]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.09.24-18.47.15:696][736]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.09.24-18.47.15:697][736]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.09.24-18.47.15:697][736]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.09.24-18.47.15:697][736]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.09.24-18.47.15:697][736]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.09.24-18.47.15:698][736]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.09.24-18.47.15:699][736]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.09.24-18.47.15:699][736]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.09.24-18.47.15:699][736]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.09.24-18.47.15:706][736]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.09.24-18.47.15:706][736]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.09.24-18.47.15:706][736]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.09.24-18.47.15:706][736]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.09.24-18.47.15:706][736]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.09.24-18.47.15:706][736]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.09.24-18.47.15:828][736]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.24-18.47.15:828][736]LogDirectoryWatcher: A directory notification for '../../../../../../Users/bsteen/Documents/GitHub/VenusColonial/VColon/Content/' was aborted.
+[2017.09.24-18.47.15:828][736]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.24-18.47.15:828][736]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.09.24-18.47.15:832][736]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.09.24-18.47.15:833][736]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.09.24-18.47.15:833][736]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.09.24-18.47.15:833][736]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.09.24-18.47.15:833][736]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.09.24-18.47.15:833][736]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.09.24-18.47.15:833][736]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.09.24-18.47.15:833][736]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.09.24-18.47.15:833][736]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.24-18.47.15:859][736]LogDerivedDataCache: Shutdown
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.24-18.47.15:860][736]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.24-18.47.15:861][736]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.09.24-18.47.15:861][736]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.09.24-18.47.15:861][736]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.24-18.47.15:861][736]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.24-18.47.15:861][736]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.24-18.47.15:861][736]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.24-18.47.15:861][736]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.24-18.47.15:861][736]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.24-18.47.15:861][736]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.24-18.47.15:861][736]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.24-18.47.15:861][736]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEE84525F-40F5-3C78-71A9-CE904FC95167%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=5ef87533485b0d8d79e011ba489749cb%7Cc573d65b8ff141b7a827532cbf121a84%7C840d79ed-61a9-417a-b8f9-500dc76fae26&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.24-18.47.15:873][736]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.24-18.47.15:875][736]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.09.24-18.47.15:875][736]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.09.24-18.47.15:875][736]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.09.24-18.47.15:875][736]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.24-18.47.15:875][736]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.24-18.47.15:875][736]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.24-18.47.15:875][736]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.24-18.47.15:875][736]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.24-18.47.15:876][736]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.24-18.47.15:876][736]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.24-18.47.15:876][736]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.24-18.47.15:876][736]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.24-18.47.15:876][736]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.24-18.47.15:876][736]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.24-18.47.15:876][736]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.24-18.47.15:876][736]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.24-18.47.15:876][736]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.24-18.47.15:876][736]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.24-18.47.15:879][736]LogExit: Exiting.
+[2017.09.24-18.47.15:895][736]Log file closed, 09/24/17 14:47:15
