@@ -1,0 +1,2223 @@
+﻿Log file open, 09/28/17 18:01:18
+LogInit:Display: Running engine for game: VColon
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-270631308) SRandInit(-270631308).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.114709
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.28-22.01.19:082][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.28-22.01.19:082][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.28-22.01.19:096][  0]LogInit: Computer: MSI
+[2017.09.28-22.01.19:096][  0]LogInit: User: bsteen
+[2017.09.28-22.01.19:096][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.28-22.01.19:096][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2017.09.28-22.01.19:096][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.28-22.01.19:096][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.28-22.01.19:096][  0]LogMemory: Process Physical Memory: 274.50 MB used, 274.50 MB peak
+[2017.09.28-22.01.19:096][  0]LogMemory: Process Virtual Memory: 261.14 MB used, 261.14 MB peak
+[2017.09.28-22.01.19:096][  0]LogMemory: Physical Memory: 8136.29 MB used,  8167.56 MB free, 16303.85 MB total
+[2017.09.28-22.01.19:096][  0]LogMemory: Virtual Memory: 624.15 MB used,  8167.56 MB free, 134217728.00 MB total
+[2017.09.28-22.01.19:384][  0]LogInit: Using OS detected language (en-US).
+[2017.09.28-22.01.19:384][  0]LogInit: Using OS detected locale (en-CA).
+[2017.09.28-22.01.19:403][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.28-22.01.20:761][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.28-22.01.20:834][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.09.28-22.01.20:834][  0]LogD3D11RHI:       2009/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.28-22.01.20:843][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.09.28-22.01.20:843][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.28-22.01.20:845][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.28-22.01.20:845][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.28-22.01.20:845][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.28-22.01.20:850][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.28-22.01.20:850][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2017.09.28-22.01.20:850][  0]LogWindows: EnumDisplayDevices:
+[2017.09.28-22.01.20:850][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.09.28-22.01.20:850][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.09.28-22.01.20:850][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.09.28-22.01.20:851][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.28-22.01.20:851][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.09.28-22.01.20:851][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.28-22.01.20:851][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.28-22.01.20:851][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.28-22.01.20:883][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.28-22.01.20:893][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.28-22.01.20:895][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Users/bsteen/Desktop/VColon/Intermediate/Shaders/WorkingDirectory/17416/).
+[2017.09.28-22.01.20:895][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bsteen/AppData/Local/Temp/UnrealShaderWorkingDir/9674C77E48C0DDAD8E18D096F65492F4/'.
+[2017.09.28-22.01.20:895][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.28-22.01.22:250][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.28-22.01.22:330][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.28-22.01.22:408][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.28-22.01.22:490][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.28-22.01.22:577][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.28-22.01.22:664][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.28-22.01.22:748][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.28-22.01.22:831][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.28-22.01.22:903][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.28-22.01.22:984][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.28-22.01.23:064][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.28-22.01.23:140][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.28-22.01.23:220][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.28-22.01.23:300][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.28-22.01.23:388][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.28-22.01.23:562][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.28-22.01.23:562][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.28-22.01.23:629][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.28-22.01.23:771][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.28-22.01.23:817][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.28-22.01.23:894][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.28-22.01.24:001][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.28-22.01.24:080][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.28-22.01.24:157][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.28-22.01.24:157][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.28-22.01.24:994][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.28-22.01.25:473][  0]LogDerivedDataCache: Loaded boot cache 0.48s 90MB C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.28-22.01.25:473][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.28-22.01.25:473][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bsteen/Desktop/VColon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.28-22.01.25:474][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.28-22.01.25:474][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bsteen/Desktop/VColon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.28-22.01.25:474][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.28-22.01.25:516][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.28-22.01.25:531][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bsteen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.28-22.01.25:549][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.28-22.01.25:550][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.28-22.01.25:554][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.28-22.01.25:554][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.28-22.01.26:395][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.28-22.01.26:493][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.28-22.01.26:711][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.28-22.01.26:794][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.28-22.01.26:880][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.28-22.01.26:880][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.28-22.01.26:880][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.28-22.01.27:746][  0]LogNetVersion: VColon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2307463867)
+[2017.09.28-22.01.27:826][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.09.28-22.01.27:915][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.056772 seconds
+[2017.09.28-22.01.27:920][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.28-22.01.27:920][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.28-22.01.27:920][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.28-22.01.28:025][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.28-22.01.33:849][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.28-22.01.33:907][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.28-22.01.35:064][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.28-22.01.35:769][  0]SourceControl: Info Source control is disabled
+[2017.09.28-22.01.35:770][  0]SourceControl: Info Source control is disabled
+[2017.09.28-22.01.35:856][  0]SourceControl: Info Source control is disabled
+[2017.09.28-22.01.35:938][  0]SourceControl: Info Source control is disabled
+[2017.09.28-22.01.37:309][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.28-22.01.38:422][  0]LogEngine: Initializing Engine...
+[2017.09.28-22.01.38:423][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.28-22.01.38:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.28-22.01.38:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.28-22.01.38:931][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.28-22.01.38:961][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.28-22.01.39:026][  0]LogInit: FAudioDevice initialized.
+[2017.09.28-22.01.39:080][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.28-22.01.39:087][  0]LogInit: Texture streaming: Enabled
+[2017.09.28-22.01.39:225][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.28-22.01.39:663][  0]LogInit: Transaction tracking system initialized
+[2017.09.28-22.01.40:280][  0]BlueprintLog: New page: Editor Load
+[2017.09.28-22.01.42:145][  0]LocalizationService: Info Localization service is disabled
+[2017.09.28-22.01.43:435][  0]LogConsoleResponse:Display: 
+[2017.09.28-22.01.43:689][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.28-22.01.43:689][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.28-22.01.44:438][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Content/' took 0.06s
+[2017.09.28-22.01.45:714][  0]SourceControl: Info Source control is disabled
+[2017.09.28-22.01.45:813][  0]LogSlate: Took 0.002567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.28-22.01.53:757][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.28-22.01.53:766][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.28-22.01.53:767][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.28-22.01.53:780][  0]LightingResults: New page: Lighting Build
+[2017.09.28-22.01.53:921][  0]MapCheck: New page: Map Check
+[2017.09.28-22.01.53:921][  0]LightingResults: New page: Lighting Build
+[2017.09.28-22.01.54:057][  0]LogLinker:Warning: Can't find file '/Game/MeleeAttack'
+[2017.09.28-22.01.54:058][  0]LogLinker:Warning: Can't find file for asset '/Game/MeleeAttack' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.09.28-22.01.54:058][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/MeleeAttack
+[2017.09.28-22.01.54:560][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning 'BP Base Armour' does not inherit from 'BP Base Item' ( Cast To BP_Base_Armour  would always fail).
+[2017.09.28-22.01.54:561][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning 'BP Base Armour' does not inherit from 'BP Base Item' ( Cast To BP_Base_Armour  would always fail).
+[2017.09.28-22.01.54:561][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning 'BP Base Armour' does not inherit from 'BP Base Item' ( Cast To BP_Base_Armour  would always fail).
+[2017.09.28-22.01.54:561][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning 'BP Base Armour' does not inherit from 'BP Base Item' ( Cast To BP_Base_Armour  would always fail).
+[2017.09.28-22.01.54:569][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning [0038.43] Compile of BP_CharacterRecorder successful, but with 4 Warning(s) [in 17 ms] (/Game/SceneCaptures/BP_CharacterRecorder.BP_CharacterRecorder)
+[2017.09.28-22.01.54:569][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning [0038.43] Compile of BP_CharacterRecorder successful, but with 5 Warning(s) [in 0 ms] (/Game/SceneCaptures/BP_CharacterRecorder.BP_CharacterRecorder)
+[2017.09.28-22.01.54:569][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning [0038.43] Compile of BP_CharacterRecorder successful, but with 6 Warning(s) [in 0 ms] (/Game/SceneCaptures/BP_CharacterRecorder.BP_CharacterRecorder)
+[2017.09.28-22.01.54:608][  0]LogLinker:Warning: Can't find file '/Game/MeleeAttack'
+[2017.09.28-22.01.54:608][  0]LogLinker:Warning: Can't find file for asset '/Game/MeleeAttack' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Interactables/BP_Base_Interactable.uasset.
+[2017.09.28-22.01.54:608][  0]LoadErrors:Error: Error /Game/Interactables/BP_Base_Interactable : Can't find file for asset. /Game/MeleeAttack
+[2017.09.28-22.01.54:612][  0]LogLinker:Warning: Can't find file '/Game/MeleeAttack'
+[2017.09.28-22.01.54:612][  0]LogLinker:Warning: Can't find file for asset '/Game/MeleeAttack' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Interactables/BP_Base_Interactable.uasset.
+[2017.09.28-22.01.54:612][  0]LoadErrors:Error: Error /Game/Interactables/BP_Base_Interactable : Can't find file for asset. /Game/MeleeAttack
+[2017.09.28-22.01.54:617][  0]LogLinker:Warning: Can't find file '/Game/MeleeAttack'
+[2017.09.28-22.01.54:617][  0]LoadErrors: Info Failed to load /Game/MeleeAttack.MeleeAttack Referenced by K2Node_CallFunction_2060
+[2017.09.28-22.01.54:617][  0]LogLinker:Warning: Can't find file for asset '/Game/MeleeAttack' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Interactables/BP_Base_Interactable.uasset.
+[2017.09.28-22.01.54:617][  0]LoadErrors: Info Failed to load /Game/MeleeAttack.MeleeAttack Referenced by K2Node_CallFunction_2060
+[2017.09.28-22.01.54:617][  0]LoadErrors:Error: Error /Game/Interactables/BP_Base_Interactable : Can't find file for asset. /Game/MeleeAttack
+[2017.09.28-22.01.54:995][  0]LogLinker:Warning: Can't find file '/Game/MeleeAttack'
+[2017.09.28-22.01.54:995][  0]LogLinker:Warning: Can't find file for asset '/Game/MeleeAttack' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.09.28-22.01.54:995][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/MeleeAttack
+[2017.09.28-22.01.55:176][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.09.28-22.01.55:178][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0039.04] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 6 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.28-22.01.55:178][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0039.04] Compile of TopDownCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.28-22.01.55:178][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0039.04] Compile of TopDownCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.28-22.01.55:184][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.09.28-22.01.55:188][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0039.05] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 7 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.28-22.01.55:188][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0039.05] Compile of TopDownCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.28-22.01.55:188][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0039.05] Compile of TopDownCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.28-22.01.55:206][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning InputAction Event references unknown Action 'SetDestination' for  InputAction SetDestination
+[2017.09.28-22.01.55:211][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0039.07] Compile of TopDownController successful, but with 1 Warning(s) [in 10 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.28-22.01.55:211][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0039.07] Compile of TopDownController successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.28-22.01.55:211][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0039.07] Compile of TopDownController successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.28-22.01.55:216][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning InputAction Event references unknown Action 'SetDestination' for  InputAction SetDestination
+[2017.09.28-22.01.55:220][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0039.08] Compile of TopDownController successful, but with 1 Warning(s) [in 8 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.28-22.01.55:220][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0039.08] Compile of TopDownController successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.28-22.01.55:220][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0039.08] Compile of TopDownController successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.28-22.01.55:828][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.28-22.01.55:874][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.28-22.01.55:905][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.28-22.01.56:094][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 188.867ms to complete.
+[2017.09.28-22.01.56:094][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.327
+[2017.09.28-22.01.56:198][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_36ac_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_3e94_0///####STATCAT_Advanced####
+[2017.09.28-22.01.56:198][  0]LogCollectionManager: Loaded 0 collections in 0.002469 seconds
+[2017.09.28-22.01.56:369][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Saved/Collections/' took 0.01s
+[2017.09.28-22.01.56:369][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Content/Developers/bsteen/Collections/' took 0.01s
+[2017.09.28-22.01.56:369][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Content/Collections/' took 0.01s
+[2017.09.28-22.01.56:369][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.09.28-22.01.56:390][  0]LogContentBrowser: Native class hierarchy populated in 0.0213 seconds. Added 2330 classes and 493 folders.
+[2017.09.28-22.01.56:519][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0026 seconds. Added 0 classes and 0 folders.
+[2017.09.28-22.01.56:720][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2017.09.28-22.01.56:804][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0031 seconds. Added 1 classes and 2 folders.
+[2017.09.28-22.01.56:862][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.28-22.01.56:871][  0]LogSlate: Took 0.002009 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.28-22.01.56:878][  0]LogSlate: Took 0.001572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.28-22.01.57:006][  0]LogRenderer: Reallocating scene render targets to support 512x512 NumSamples 1 (Frame:1).
+[2017.09.28-22.01.57:027][  0]LogRenderer: Reallocating scene render targets to support 832x512 NumSamples 1 (Frame:1).
+[2017.09.28-22.01.57:129][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.28-22.01.57:236][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2017.09.28-22.01.57:236][  0]LogLoad: (Engine Initialization) Total time: 41.09 seconds
+[2017.09.28-22.01.57:236][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.60 seconds
+[2017.09.28-22.01.57:236][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.28-22.01.57:245][  0]LogOcInput: OculusInput pre-init called
+[2017.09.28-22.01.57:245][  0]LogHMD: Starting GearVRController plugin
+[2017.09.28-22.01.57:297][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.28-22.01.57:330][  0]LogSlate: Took 0.001552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.28-22.01.57:384][  1]LogAssetRegistry: Asset discovery search completed in 29.5793 seconds
+[2017.09.28-22.01.57:390][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.28-22.01.57:390][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.09.28-22.01.58:324][ 28]LogSlate: Took 0.001197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.28-22.02.02:363][171]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/bsteen/Desktop/VColon/Content/' took 5.10s
+[2017.09.28-22.02.22:498][172]AssetReimport: New page: Outstanding source content changes 2:02:22 PM
+[2017.09.28-22.02.22:510][173]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_1.fbx)
+[2017.09.28-22.02.22:521][173]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.22:521][173]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.22:521][173]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.22:521][173]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.22:521][173]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.22:521][173]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.22:521][173]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.22:527][173]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_1.fbx
+[2017.09.28-22.02.22:555][173]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.32:647][173]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_1.fbx
+[2017.09.28-22.02.32:675][173]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.32:683][173]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.32:684][173]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.32:686][173]LogLinker: Can't find file '/Game/Animations/draw_sword_1'
+[2017.09.28-22.02.32:686][173]LogLinker: Can't find file '/Game/Animations/draw_sword_1'
+[2017.09.28-22.02.32:756][173]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/draw_sword_1.draw_sword_1
+[2017.09.28-22.02.32:774][174]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_2.fbx)
+[2017.09.28-22.02.32:779][174]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.32:779][174]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.32:779][174]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.32:779][174]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.32:779][174]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.32:779][174]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.32:779][174]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.32:786][174]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_2.fbx
+[2017.09.28-22.02.32:811][174]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.34:468][174]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_2.fbx
+[2017.09.28-22.02.34:497][174]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.34:502][174]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.34:503][174]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.34:503][174]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.34:506][174]LogLinker: Can't find file '/Game/Animations/draw_sword_2'
+[2017.09.28-22.02.34:506][174]LogLinker: Can't find file '/Game/Animations/draw_sword_2'
+[2017.09.28-22.02.34:605][174]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/draw_sword_2.draw_sword_2
+[2017.09.28-22.02.34:623][175]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_1.fbx)
+[2017.09.28-22.02.34:628][175]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.34:628][175]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.34:628][175]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.34:628][175]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.34:628][175]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.34:628][175]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.34:628][175]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.34:634][175]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_1.fbx
+[2017.09.28-22.02.34:660][175]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.40:792][175]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_1.fbx
+[2017.09.28-22.02.40:827][175]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.40:834][175]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.40:835][175]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.40:837][175]LogLinker: Can't find file '/Game/Animations/sheath_sword_1'
+[2017.09.28-22.02.40:837][175]LogLinker: Can't find file '/Game/Animations/sheath_sword_1'
+[2017.09.28-22.02.41:009][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sheath_sword_1.sheath_sword_1
+[2017.09.28-22.02.41:034][176]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_2.fbx)
+[2017.09.28-22.02.41:039][176]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.41:039][176]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.41:039][176]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.41:039][176]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.41:039][176]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.41:039][176]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.41:039][176]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.41:044][176]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_2.fbx
+[2017.09.28-22.02.41:075][176]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.42:642][176]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_2.fbx
+[2017.09.28-22.02.42:676][176]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.42:682][176]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.42:683][176]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.42:684][176]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.42:688][176]LogLinker: Can't find file '/Game/Animations/sheath_sword_2'
+[2017.09.28-22.02.42:689][176]LogLinker: Can't find file '/Game/Animations/sheath_sword_2'
+[2017.09.28-22.02.42:804][176]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sheath_sword_2.sheath_sword_2
+[2017.09.28-22.02.42:823][177]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn.fbx)
+[2017.09.28-22.02.42:827][177]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.42:827][177]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.42:827][177]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.42:827][177]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.42:827][177]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.42:827][177]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.42:827][177]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.42:833][177]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn.fbx
+[2017.09.28-22.02.42:860][177]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.44:061][177]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn.fbx
+[2017.09.28-22.02.44:103][177]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.44:108][177]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.44:108][177]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.44:112][177]LogLinker: Can't find file '/Game/Animations/sword_and_shield_180_turn'
+[2017.09.28-22.02.44:112][177]LogLinker: Can't find file '/Game/Animations/sword_and_shield_180_turn'
+[2017.09.28-22.02.44:236][177]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_180_turn.sword_and_shield_180_turn
+[2017.09.28-22.02.44:256][178]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn_1.fbx)
+[2017.09.28-22.02.44:260][178]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.44:260][178]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.44:260][178]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.44:260][178]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.44:260][178]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.44:260][178]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.44:260][178]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.44:267][178]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn_1.fbx
+[2017.09.28-22.02.44:299][178]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.45:081][178]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn_1.fbx
+[2017.09.28-22.02.45:115][178]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.45:119][178]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.45:120][178]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.45:120][178]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.45:123][178]LogLinker: Can't find file '/Game/Animations/sword_and_shield_180_turn_1'
+[2017.09.28-22.02.45:123][178]LogLinker: Can't find file '/Game/Animations/sword_and_shield_180_turn_1'
+[2017.09.28-22.02.45:229][178]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_180_turn_1.sword_and_shield_180_turn_1
+[2017.09.28-22.02.45:251][179]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack.fbx)
+[2017.09.28-22.02.45:257][179]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.45:257][179]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.45:257][179]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.45:257][179]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.45:257][179]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.45:257][179]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.45:257][179]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.45:261][179]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack.fbx
+[2017.09.28-22.02.45:294][179]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.45:916][179]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack.fbx
+[2017.09.28-22.02.45:954][179]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.45:960][179]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.45:961][179]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.45:967][179]LogLinker: Can't find file '/Game/Animations/sword_and_shield_attack'
+[2017.09.28-22.02.45:967][179]LogLinker: Can't find file '/Game/Animations/sword_and_shield_attack'
+[2017.09.28-22.02.46:258][179]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_attack.sword_and_shield_attack
+[2017.09.28-22.02.46:286][180]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_2.fbx)
+[2017.09.28-22.02.46:293][180]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.46:293][180]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.46:293][180]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.46:293][180]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.46:293][180]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.46:293][180]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.46:293][180]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.46:300][180]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_2.fbx
+[2017.09.28-22.02.46:341][180]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.46:800][180]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_2.fbx
+[2017.09.28-22.02.46:836][180]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.46:841][180]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.46:842][180]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.46:845][180]LogLinker: Can't find file '/Game/Animations/sword_and_shield_attack_2'
+[2017.09.28-22.02.46:845][180]LogLinker: Can't find file '/Game/Animations/sword_and_shield_attack_2'
+[2017.09.28-22.02.47:064][180]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_attack_2.sword_and_shield_attack_2
+[2017.09.28-22.02.47:087][181]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_3.fbx)
+[2017.09.28-22.02.47:092][181]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.47:092][181]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.47:092][181]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.47:092][181]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.47:092][181]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.47:092][181]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.47:092][181]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.47:098][181]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_3.fbx
+[2017.09.28-22.02.47:133][181]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.47:615][181]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_3.fbx
+[2017.09.28-22.02.47:652][181]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.47:656][181]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.47:657][181]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.47:659][181]LogLinker: Can't find file '/Game/Animations/sword_and_shield_attack_3'
+[2017.09.28-22.02.47:659][181]LogLinker: Can't find file '/Game/Animations/sword_and_shield_attack_3'
+[2017.09.28-22.02.47:804][181]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_attack_3.sword_and_shield_attack_3
+[2017.09.28-22.02.47:826][182]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_4.fbx)
+[2017.09.28-22.02.47:837][182]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.47:837][182]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.47:837][182]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.47:837][182]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.47:837][182]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.47:837][182]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.47:837][182]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.47:842][182]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_4.fbx
+[2017.09.28-22.02.47:876][182]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.48:436][182]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_4.fbx
+[2017.09.28-22.02.48:472][182]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.48:477][182]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.48:478][182]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.48:486][182]LogLinker: Can't find file '/Game/Animations/sword_and_shield_attack_4'
+[2017.09.28-22.02.48:486][182]LogLinker: Can't find file '/Game/Animations/sword_and_shield_attack_4'
+[2017.09.28-22.02.48:782][182]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_attack_4.sword_and_shield_attack_4
+[2017.09.28-22.02.48:807][183]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block.fbx)
+[2017.09.28-22.02.48:812][183]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.48:812][183]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.48:812][183]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.48:812][183]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.48:812][183]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.48:812][183]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.48:812][183]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.48:818][183]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block.fbx
+[2017.09.28-22.02.48:851][183]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.49:448][183]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block.fbx
+[2017.09.28-22.02.49:486][183]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.49:492][183]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.49:493][183]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.49:494][183]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.49:499][183]LogLinker: Can't find file '/Game/Animations/sword_and_shield_block'
+[2017.09.28-22.02.49:499][183]LogLinker: Can't find file '/Game/Animations/sword_and_shield_block'
+[2017.09.28-22.02.49:575][183]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_block.sword_and_shield_block
+[2017.09.28-22.02.49:595][184]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_1.fbx)
+[2017.09.28-22.02.49:603][184]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.49:604][184]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.49:604][184]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.49:604][184]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.49:604][184]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.49:604][184]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.49:604][184]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.49:608][184]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_1.fbx
+[2017.09.28-22.02.49:644][184]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.50:547][184]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_1.fbx
+[2017.09.28-22.02.50:583][184]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.50:587][184]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.50:588][184]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.50:591][184]LogLinker: Can't find file '/Game/Animations/sword_and_shield_block_1'
+[2017.09.28-22.02.50:591][184]LogLinker: Can't find file '/Game/Animations/sword_and_shield_block_1'
+[2017.09.28-22.02.50:680][184]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_block_1.sword_and_shield_block_1
+[2017.09.28-22.02.50:702][185]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_idle.fbx)
+[2017.09.28-22.02.50:707][185]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.50:707][185]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.50:707][185]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.50:707][185]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.50:707][185]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.50:707][185]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.50:707][185]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.50:712][185]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_idle.fbx
+[2017.09.28-22.02.50:750][185]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.51:602][185]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_idle.fbx
+[2017.09.28-22.02.51:643][185]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.51:649][185]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.51:649][185]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.51:649][185]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.51:650][185]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.51:651][185]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.51:655][185]LogLinker: Can't find file '/Game/Animations/sword_and_shield_block_idle'
+[2017.09.28-22.02.51:655][185]LogLinker: Can't find file '/Game/Animations/sword_and_shield_block_idle'
+[2017.09.28-22.02.51:846][185]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_block_idle.sword_and_shield_block_idle
+[2017.09.28-22.02.51:870][186]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting.fbx)
+[2017.09.28-22.02.51:876][186]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.51:876][186]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.51:876][186]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.51:876][186]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.51:876][186]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.51:876][186]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.51:876][186]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.51:882][186]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting.fbx
+[2017.09.28-22.02.51:923][186]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.52:369][186]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting.fbx
+[2017.09.28-22.02.52:411][186]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.52:417][186]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.52:418][186]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.52:421][186]LogLinker: Can't find file '/Game/Animations/sword_and_shield_casting'
+[2017.09.28-22.02.52:422][186]LogLinker: Can't find file '/Game/Animations/sword_and_shield_casting'
+[2017.09.28-22.02.52:790][186]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_casting.sword_and_shield_casting
+[2017.09.28-22.02.52:819][187]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting_2.fbx)
+[2017.09.28-22.02.52:824][187]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.52:824][187]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.52:824][187]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.52:824][187]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.52:824][187]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.52:824][187]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.52:824][187]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.52:831][187]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting_2.fbx
+[2017.09.28-22.02.52:873][187]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.53:451][187]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting_2.fbx
+[2017.09.28-22.02.53:489][187]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.53:494][187]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.53:495][187]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.53:502][187]LogLinker: Can't find file '/Game/Animations/sword_and_shield_casting_2'
+[2017.09.28-22.02.53:502][187]LogLinker: Can't find file '/Game/Animations/sword_and_shield_casting_2'
+[2017.09.28-22.02.53:835][187]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_casting_2.sword_and_shield_casting_2
+[2017.09.28-22.02.53:861][188]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouch.fbx)
+[2017.09.28-22.02.53:868][188]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.53:868][188]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.53:868][188]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.53:868][188]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.53:868][188]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.53:868][188]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.53:868][188]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.53:873][188]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouch.fbx
+[2017.09.28-22.02.53:920][188]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.54:487][188]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouch.fbx
+[2017.09.28-22.02.54:532][188]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.54:536][188]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.54:537][188]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.54:540][188]LogLinker: Can't find file '/Game/Animations/sword_and_shield_crouch'
+[2017.09.28-22.02.54:540][188]LogLinker: Can't find file '/Game/Animations/sword_and_shield_crouch'
+[2017.09.28-22.02.54:619][188]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_crouch.sword_and_shield_crouch
+[2017.09.28-22.02.54:642][189]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching.fbx)
+[2017.09.28-22.02.54:650][189]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.54:650][189]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.54:650][189]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.54:650][189]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.54:650][189]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.54:650][189]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.54:650][189]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.54:654][189]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching.fbx
+[2017.09.28-22.02.54:692][189]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.55:619][189]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching.fbx
+[2017.09.28-22.02.55:670][189]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.55:675][189]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.55:675][189]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.55:681][189]LogLinker: Can't find file '/Game/Animations/sword_and_shield_crouching'
+[2017.09.28-22.02.55:681][189]LogLinker: Can't find file '/Game/Animations/sword_and_shield_crouching'
+[2017.09.28-22.02.55:755][189]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_crouching.sword_and_shield_crouching
+[2017.09.28-22.02.55:778][190]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching_1.fbx)
+[2017.09.28-22.02.55:786][190]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.55:786][190]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.55:786][190]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.55:786][190]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.55:786][190]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.55:786][190]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.55:786][190]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.55:791][190]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching_1.fbx
+[2017.09.28-22.02.55:834][190]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.57:209][190]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching_1.fbx
+[2017.09.28-22.02.57:254][190]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(0) root
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(1) pelvis
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(2) spine_01
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(3) spine_02
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(4) spine_03
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(5) clavicle_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(6) upperarm_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(7) lowerarm_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(8) hand_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(9) index_01_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(10) index_02_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(11) index_03_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(12) middle_01_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(13) middle_02_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(14) middle_03_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(15) pinky_01_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(16) pinky_02_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(17) pinky_03_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(18) ring_01_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(19) ring_02_l
+[2017.09.28-22.02.57:259][190]LogFbx: SortedLinks :(20) ring_03_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(21) thumb_01_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(22) thumb_02_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(23) thumb_03_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(26) clavicle_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(27) upperarm_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(28) lowerarm_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(29) hand_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(30) index_01_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(31) index_02_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(32) index_03_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(33) middle_01_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(34) middle_02_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(35) middle_03_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(36) pinky_01_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(37) pinky_02_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(38) pinky_03_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(39) ring_01_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(40) ring_02_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(41) ring_03_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(42) thumb_01_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(43) thumb_02_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(44) thumb_03_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(47) neck_01
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(48) head
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(49) thigh_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(50) calf_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(52) foot_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(53) ball_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(55) thigh_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(56) calf_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(58) foot_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(59) ball_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(61) ik_foot_root
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(62) ik_foot_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(63) ik_foot_r
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(64) ik_hand_root
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(65) ik_hand_gun
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(66) ik_hand_l
+[2017.09.28-22.02.57:260][190]LogFbx: SortedLinks :(67) ik_hand_r
+[2017.09.28-22.02.57:261][190]LogFbx: Parsing AnimStack mixamo.com
+[2017.09.28-22.02.57:266][190]LogLinker: Can't find file '/Game/Animations/sword_and_shield_crouching_1'
+[2017.09.28-22.02.57:266][190]LogLinker: Can't find file '/Game/Animations/sword_and_shield_crouching_1'
+[2017.09.28-22.02.57:349][190]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/sword_and_shield_crouching_1.sword_and_shield_crouching_1
+[2017.09.28-22.02.57:372][191]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching_2.fbx)
+[2017.09.28-22.02.57:377][191]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.28-22.02.57:377][191]LogFbx: ItemName: Model, ItemCount : 68
+[2017.09.28-22.02.57:377][191]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2017.09.28-22.02.57:377][191]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.28-22.02.57:377][191]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.28-22.02.57:377][191]LogFbx: ItemName: AnimationCurveNode, ItemCount : 75
+[2017.09.28-22.02.57:377][191]LogFbx: ItemName: AnimationCurve, ItemCount : 426
+[2017.09.28-22.02.57:383][191]LogFbx: Loading FBX Scene from C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching_2.fbx
+[2017.09.28-22.02.57:420][191]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.28-22.02.58:328][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/draw_sword_1" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_1.uasset" SILENT=true
+[2017.09.28-22.02.58:347][192]LogSavePackage: Save=14.32ms
+[2017.09.28-22.02.58:347][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/draw_sword_1051F83344249D1FF9788158CAFBDC4D2.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_1.uasset'
+[2017.09.28-22.02.58:354][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_1.uasset
+[2017.09.28-22.02.58:404][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/draw_sword_2" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_2.uasset" SILENT=true
+[2017.09.28-22.02.58:419][192]LogSavePackage: Save=12.73ms
+[2017.09.28-22.02.58:419][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/draw_sword_23BD8E6A94A6E20F8AFF316B946037C1A.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_2.uasset'
+[2017.09.28-22.02.58:426][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/draw_sword_2.uasset
+[2017.09.28-22.02.58:443][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sheath_sword_1" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_1.uasset" SILENT=true
+[2017.09.28-22.02.58:461][192]LogSavePackage: Save=13.75ms
+[2017.09.28-22.02.58:461][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sheath_sword_15AB177184C5DD77708448E94AC71C7B4.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_1.uasset'
+[2017.09.28-22.02.58:469][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_1.uasset
+[2017.09.28-22.02.58:487][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sheath_sword_2" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_2.uasset" SILENT=true
+[2017.09.28-22.02.58:503][192]LogSavePackage: Save=14.28ms
+[2017.09.28-22.02.58:503][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sheath_sword_2F51AB1B3431F3CEAAD01D69B9B8E5398.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_2.uasset'
+[2017.09.28-22.02.58:510][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sheath_sword_2.uasset
+[2017.09.28-22.02.58:531][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_180_turn" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn.uasset" SILENT=true
+[2017.09.28-22.02.58:547][192]LogSavePackage: Save=12.88ms
+[2017.09.28-22.02.58:547][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_180_turn4D782F7D47C58B49A609EAB81032F4C2.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn.uasset'
+[2017.09.28-22.02.58:553][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn.uasset
+[2017.09.28-22.02.58:571][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_180_turn_1" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn_1.uasset" SILENT=true
+[2017.09.28-22.02.58:588][192]LogSavePackage: Save=13.29ms
+[2017.09.28-22.02.58:588][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_180_turn_1836FB2FE4E72A1FAF77A30B6AD88855D.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn_1.uasset'
+[2017.09.28-22.02.58:597][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_180_turn_1.uasset
+[2017.09.28-22.02.58:616][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_attack" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack.uasset" SILENT=true
+[2017.09.28-22.02.58:631][192]LogSavePackage: Save=13.02ms
+[2017.09.28-22.02.58:631][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_attackDFBFCA18447985F391479BB04556BD90.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack.uasset'
+[2017.09.28-22.02.58:639][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack.uasset
+[2017.09.28-22.02.58:655][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_attack_2" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_2.uasset" SILENT=true
+[2017.09.28-22.02.58:670][192]LogSavePackage: Save=12.35ms
+[2017.09.28-22.02.58:670][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_attack_2C82FC6EF41D143CC8FA97581943E6C82.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_2.uasset'
+[2017.09.28-22.02.58:677][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_2.uasset
+[2017.09.28-22.02.58:696][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_attack_3" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_3.uasset" SILENT=true
+[2017.09.28-22.02.58:713][192]LogSavePackage: Save=13.26ms
+[2017.09.28-22.02.58:713][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_attack_365747763414B7BD7268B2CB9197EFD64.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_3.uasset'
+[2017.09.28-22.02.58:722][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_3.uasset
+[2017.09.28-22.02.58:742][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_attack_4" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_4.uasset" SILENT=true
+[2017.09.28-22.02.58:759][192]LogSavePackage: Save=13.05ms
+[2017.09.28-22.02.58:759][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_attack_4E3E8CA4F48B535ECAC0820A6B5A1FBD1.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_4.uasset'
+[2017.09.28-22.02.58:770][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_attack_4.uasset
+[2017.09.28-22.02.58:790][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_block" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block.uasset" SILENT=true
+[2017.09.28-22.02.58:808][192]LogSavePackage: Save=15.41ms
+[2017.09.28-22.02.58:808][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_block27074BA146220280C5275E82620A329E.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block.uasset'
+[2017.09.28-22.02.58:818][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block.uasset
+[2017.09.28-22.02.58:839][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_block_1" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_1.uasset" SILENT=true
+[2017.09.28-22.02.58:858][192]LogSavePackage: Save=15.88ms
+[2017.09.28-22.02.58:858][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_block_10A47D20E42EBB2BA3073BCBE7D150A5D.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_1.uasset'
+[2017.09.28-22.02.58:871][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_1.uasset
+[2017.09.28-22.02.58:892][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_block_idle" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_idle.uasset" SILENT=true
+[2017.09.28-22.02.58:909][192]LogSavePackage: Save=11.51ms
+[2017.09.28-22.02.58:909][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_block_idle0DC94F124BAE6DC334C12DB4E62170FE.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_idle.uasset'
+[2017.09.28-22.02.58:916][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_block_idle.uasset
+[2017.09.28-22.02.58:933][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_casting" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting.uasset" SILENT=true
+[2017.09.28-22.02.58:947][192]LogSavePackage: Save=11.62ms
+[2017.09.28-22.02.58:947][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_castingC35ECE2D4A18C96D76D19FAA7D1CA2A2.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting.uasset'
+[2017.09.28-22.02.58:953][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting.uasset
+[2017.09.28-22.02.58:969][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_casting_2" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting_2.uasset" SILENT=true
+[2017.09.28-22.02.58:982][192]LogSavePackage: Save=11.59ms
+[2017.09.28-22.02.58:982][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_casting_259E75C304FECC54DB4B87D9DA40D5F27.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting_2.uasset'
+[2017.09.28-22.02.58:988][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_casting_2.uasset
+[2017.09.28-22.02.59:004][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_crouch" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouch.uasset" SILENT=true
+[2017.09.28-22.02.59:019][192]LogSavePackage: Save=12.94ms
+[2017.09.28-22.02.59:020][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_crouch295B43F1459F896CC8834B895C4E85A2.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouch.uasset'
+[2017.09.28-22.02.59:027][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouch.uasset
+[2017.09.28-22.02.59:047][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_crouching" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching.uasset" SILENT=true
+[2017.09.28-22.02.59:063][192]LogSavePackage: Save=13.25ms
+[2017.09.28-22.02.59:063][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_crouching458133B648886F18B4EB0CAAA8C7F383.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching.uasset'
+[2017.09.28-22.02.59:069][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching.uasset
+[2017.09.28-22.02.59:086][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/sword_and_shield_crouching_1" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching_1.uasset" SILENT=true
+[2017.09.28-22.02.59:100][192]LogSavePackage: Save=11.76ms
+[2017.09.28-22.02.59:100][192]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_crouching_1B5BAD7A44D682493E02391B00BD1B31B.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching_1.uasset'
+[2017.09.28-22.02.59:105][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching_1.uasset
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/draw_sword_1.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/draw_sword_2.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sheath_sword_1.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sheath_sword_2.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_180_turn.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_180_turn_1.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_attack.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_attack_2.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_attack_3.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_attack_4.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_block.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_block_1.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_block_idle.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_casting.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_casting_2.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_crouch.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_crouching.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_crouching_1.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Importing new asset /Game/Animations/sword_and_shield_crouching_2.
+[2017.09.28-22.03.03:319][694]AssetReimport: Info Failed to import file C:/Users/bsteen/Desktop/VColon/Content/Animations/sword_and_shield_crouching_2.fbx.
+[2017.09.28-22.03.21:925][897]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2017.09.28-22.03.22:072][897]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.28-22.03.22:102][897]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.09.28-22.03.22:494][897]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0022 seconds. Added 1 classes and 0 folders.
+[2017.09.28-22.03.22:502][897]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.28-22.03.55:114][527]Cmd: TRANSACTION UNDO
+[2017.09.28-22.03.55:114][527]LogEditorTransaction: Undo Translate Bone
+[2017.09.28-22.03.55:210][527]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.28-22.03.55:796][565]Cmd: TRANSACTION UNDO
+[2017.09.28-22.03.55:796][565]LogEditorTransaction: Undo Rotate Bone
+[2017.09.28-22.03.55:914][565]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.28-22.04.17:076][841]Cmd: TRANSACTION UNDO
+[2017.09.28-22.04.17:076][841]LogEditorTransaction: Undo Rotate Bone
+[2017.09.28-22.04.17:172][841]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.28-22.04.36:185][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword_and_shield_slash" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset" SILENT=true
+[2017.09.28-22.04.36:225][885]LogSavePackage: Save=14.80ms
+[2017.09.28-22.04.36:225][885]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_slashCAC700744FEA8252595319971159EFD5.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset'
+[2017.09.28-22.04.36:228][885]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset
+[2017.09.28-22.05.48:711][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword_and_shield_slash" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset" SILENT=true
+[2017.09.28-22.05.48:735][577]LogSavePackage: Save=3.69ms
+[2017.09.28-22.05.48:735][577]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_slash8193637748B4A262D36A7684019DC7F3.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset'
+[2017.09.28-22.05.48:739][577]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset
+[2017.09.28-22.06.01:686][ 63]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 112 classes and 0 folders.
+[2017.09.28-22.06.02:361][ 63]LogSlate: Took 0.001565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.28-22.06.02:555][ 64]LogSlate: Took 0.002315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.28-22.07.55:188][579]BlueprintLog: New page: Compile CH_MyChar
+[2017.09.28-22.07.56:723][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/CH_MyChar" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset" SILENT=true
+[2017.09.28-22.07.57:570][641]LogSavePackage: Save=823.39ms
+[2017.09.28-22.07.57:570][641]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/CH_MyCharD70CE2BF4183267357C342915FDD9D65.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset'
+[2017.09.28-22.07.57:579][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset
+[2017.09.28-22.09.26:523][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword_and_shield_slash" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset" SILENT=true
+[2017.09.28-22.09.26:549][309]LogSavePackage: Save=3.63ms
+[2017.09.28-22.09.26:549][309]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_slashDAFEED954A479224D7F09AAA2E34829F.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset'
+[2017.09.28-22.09.26:552][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset
+[2017.09.28-22.11.07:035][513]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_1' or package '/Engine/Transient'.
+[2017.09.28-22.11.14:307][346]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.09.28-22.11.14:332][346]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.09.28-22.11.14:636][346]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.28-22.11.30:298][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword_and_shield_slash" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset" SILENT=true
+[2017.09.28-22.11.30:322][185]LogSavePackage: Save=4.09ms
+[2017.09.28-22.11.30:322][185]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_slash2AE5F84B4AFF68A4CAFC9BA9000BEADE.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset'
+[2017.09.28-22.11.30:325][185]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset
+[2017.09.28-22.11.34:370][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sword_and_shield_slash" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset" SILENT=true
+[2017.09.28-22.11.34:395][650]LogSavePackage: Save=4.17ms
+[2017.09.28-22.11.34:395][650]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/sword_and_shield_slashCD08D6FB4C6405E98F55DF8944523391.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset'
+[2017.09.28-22.11.34:398][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/sword_and_shield_slash.uasset
+[2017.09.28-22.11.38:981][141]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.09.28-22.11.39:005][141]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.09.28-22.11.39:321][141]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.09.28-22.11.49:467][348]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.09.28-22.11.49:497][348]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_3.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.09.28-22.11.49:709][349]LogRenderer: Reallocating scene render targets to support 832x652 NumSamples 1 (Frame:1).
+[2017.09.28-22.12.05:207][180]LogSavePackage: Save=4.50ms
+[2017.09.28-22.12.05:207][180]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/UE4_Mannequin_Skeleton6B82B52A465E28C8EA0F53A63D69EA8C.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.28-22.12.05:209][180]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset', retrying in .5s...
+[2017.09.28-22.12.05:710][180]LogFileManager:Error: Error deleting file '../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'.
+[2017.09.28-22.12.05:710][180]LogSavePackage:Error: Error saving '../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.28-22.12.05:710][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.28-22.12.08:815][180]LogSavePackage: Save=4.42ms
+[2017.09.28-22.12.08:815][180]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/UE4_Mannequin_Skeleton2780CCD3412B01DAB64AFC9A4A9AB7D9.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.28-22.12.08:817][180]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset', retrying in .5s...
+[2017.09.28-22.12.09:318][180]LogFileManager:Error: Error deleting file '../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'.
+[2017.09.28-22.12.09:318][180]LogSavePackage:Error: Error saving '../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.28-22.12.09:319][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.28-22.12.10:433][180]EditorErrors: New page: Save Output
+[2017.09.28-22.12.10:433][180]EditorErrors:Warning: Warning Error saving '../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.28-22.12.10:433][180]EditorErrors:Warning: Warning Error saving '../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.28-22.12.29:404][194]Cmd: QUIT_EDITOR
+[2017.09.28-22.12.29:520][194]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.28-22.12.29:530][194]LogExit: Preparing to exit.
+[2017.09.28-22.12.30:361][194]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Desktop/VColon/Content/' was aborted.
+[2017.09.28-22.12.30:426][194]LogExit: Editor shut down
+[2017.09.28-22.12.30:429][194]LogExit: Transaction tracking system shut down
+[2017.09.28-22.12.30:631][194]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.28-22.12.30:631][194]LogExit: Object subsystem successfully closed.
+[2017.09.28-22.12.30:662][194]LogD3D11RHI: Shutdown
+[2017.09.28-22.12.30:662][194]LogD3D11RHI: CleanupD3DDevice
+[2017.09.28-22.12.30:797][194]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.28-22.12.30:863][194]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.09.28-22.12.30:863][194]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.09.28-22.12.30:865][194]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (532)
+[2017.09.28-22.12.30:865][194]LogModuleManager: Shutting down and abandoning module SkeletonEditor (530)
+[2017.09.28-22.12.30:865][194]LogModuleManager: Shutting down and abandoning module AnimationEditor (528)
+[2017.09.28-22.12.30:865][194]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.09.28-22.12.30:865][194]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.09.28-22.12.30:865][194]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.09.28-22.12.30:865][194]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.09.28-22.12.30:866][194]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.09.28-22.12.30:867][194]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.09.28-22.12.30:867][194]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.09.28-22.12.30:867][194]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.09.28-22.12.30:867][194]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Desktop/VColon/Content/Collections/' was aborted.
+[2017.09.28-22.12.30:867][194]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Desktop/VColon/Content/Developers/bsteen/Collections/' was aborted.
+[2017.09.28-22.12.30:867][194]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Desktop/VColon/Saved/Collections/' was aborted.
+[2017.09.28-22.12.30:867][194]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.09.28-22.12.30:868][194]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.09.28-22.12.30:868][194]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.09.28-22.12.30:869][194]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.09.28-22.12.30:869][194]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.09.28-22.12.30:869][194]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.09.28-22.12.30:869][194]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.09.28-22.12.30:869][194]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.09.28-22.12.30:869][194]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.09.28-22.12.30:869][194]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.09.28-22.12.30:869][194]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.09.28-22.12.30:869][194]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.09.28-22.12.30:870][194]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.09.28-22.12.30:870][194]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.09.28-22.12.30:873][194]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.09.28-22.12.30:874][194]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.09.28-22.12.30:874][194]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.09.28-22.12.30:874][194]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.09.28-22.12.30:874][194]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.09.28-22.12.30:874][194]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.09.28-22.12.30:876][194]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.09.28-22.12.30:877][194]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.09.28-22.12.30:878][194]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.09.28-22.12.30:879][194]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.09.28-22.12.30:879][194]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.09.28-22.12.30:880][194]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.09.28-22.12.30:880][194]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.09.28-22.12.30:880][194]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.09.28-22.12.31:028][194]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.09.28-22.12.31:028][194]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.09.28-22.12.31:028][194]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.09.28-22.12.31:029][194]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.09.28-22.12.31:029][194]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.09.28-22.12.31:029][194]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.09.28-22.12.31:030][194]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.09.28-22.12.31:030][194]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.09.28-22.12.31:032][194]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.09.28-22.12.31:032][194]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.09.28-22.12.31:032][194]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.09.28-22.12.31:033][194]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.09.28-22.12.31:033][194]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.09.28-22.12.31:033][194]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.09.28-22.12.31:033][194]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.09.28-22.12.31:034][194]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.09.28-22.12.31:034][194]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.09.28-22.12.31:034][194]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.09.28-22.12.31:034][194]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.09.28-22.12.31:035][194]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.09.28-22.12.31:036][194]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.09.28-22.12.31:037][194]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.09.28-22.12.31:038][194]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.09.28-22.12.31:039][194]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.09.28-22.12.31:092][194]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.09.28-22.12.31:093][194]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.09.28-22.12.31:094][194]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.09.28-22.12.31:095][194]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.09.28-22.12.31:095][194]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.09.28-22.12.31:096][194]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.09.28-22.12.31:096][194]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.09.28-22.12.31:096][194]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.09.28-22.12.31:096][194]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.09.28-22.12.31:096][194]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.09.28-22.12.31:108][194]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.09.28-22.12.31:108][194]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.09.28-22.12.31:108][194]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.09.28-22.12.31:109][194]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.09.28-22.12.31:110][194]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.09.28-22.12.31:111][194]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.09.28-22.12.31:111][194]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.09.28-22.12.31:111][194]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.09.28-22.12.31:111][194]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.09.28-22.12.31:111][194]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.09.28-22.12.31:111][194]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.09.28-22.12.31:113][194]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.09.28-22.12.31:114][194]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.09.28-22.12.31:114][194]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.09.28-22.12.31:114][194]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.09.28-22.12.31:114][194]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.09.28-22.12.31:114][194]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.09.28-22.12.31:114][194]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.09.28-22.12.31:114][194]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.09.28-22.12.31:114][194]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.09.28-22.12.31:193][194]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.09.28-22.12.31:194][194]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.09.28-22.12.31:194][194]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.09.28-22.12.31:194][194]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.09.28-22.12.31:194][194]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.09.28-22.12.31:195][194]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.09.28-22.12.31:195][194]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.09.28-22.12.31:195][194]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.09.28-22.12.31:195][194]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.09.28-22.12.31:195][194]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.09.28-22.12.31:195][194]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.09.28-22.12.31:195][194]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.09.28-22.12.31:195][194]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.09.28-22.12.31:196][194]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.09.28-22.12.31:196][194]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.09.28-22.12.31:197][194]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.09.28-22.12.31:197][194]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.09.28-22.12.31:197][194]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.09.28-22.12.31:197][194]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.09.28-22.12.31:197][194]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.09.28-22.12.31:197][194]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.09.28-22.12.31:197][194]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.09.28-22.12.31:198][194]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.09.28-22.12.31:199][194]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.09.28-22.12.31:199][194]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.09.28-22.12.31:199][194]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.09.28-22.12.31:199][194]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.09.28-22.12.31:200][194]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.09.28-22.12.31:200][194]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.09.28-22.12.31:200][194]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.09.28-22.12.31:201][194]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.09.28-22.12.31:201][194]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.09.28-22.12.31:201][194]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.09.28-22.12.31:201][194]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.09.28-22.12.31:201][194]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.09.28-22.12.31:201][194]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.09.28-22.12.31:202][194]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.09.28-22.12.31:203][194]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.09.28-22.12.31:204][194]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.09.28-22.12.31:204][194]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Desktop/VColon/Binaries/Win64' was aborted.
+[2017.09.28-22.12.31:207][194]LogModuleManager: Shutting down and abandoning module VColon (248)
+[2017.09.28-22.12.31:207][194]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.09.28-22.12.31:207][194]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.09.28-22.12.31:207][194]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.09.28-22.12.31:207][194]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.09.28-22.12.31:207][194]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.09.28-22.12.31:207][194]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.09.28-22.12.31:308][194]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.09.28-22.12.31:409][194]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.09.28-22.12.31:410][194]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.09.28-22.12.31:410][194]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.09.28-22.12.31:410][194]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.09.28-22.12.31:411][194]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.09.28-22.12.31:411][194]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.09.28-22.12.31:412][194]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.09.28-22.12.31:412][194]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.09.28-22.12.31:412][194]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.09.28-22.12.31:412][194]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.09.28-22.12.31:413][194]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.09.28-22.12.31:413][194]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.09.28-22.12.31:413][194]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.09.28-22.12.31:413][194]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.09.28-22.12.31:414][194]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.09.28-22.12.31:414][194]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.09.28-22.12.31:415][194]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.09.28-22.12.31:415][194]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.09.28-22.12.31:416][194]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.09.28-22.12.31:416][194]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.09.28-22.12.31:417][194]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.09.28-22.12.31:418][194]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.09.28-22.12.31:419][194]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.09.28-22.12.31:420][194]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.09.28-22.12.31:421][194]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.09.28-22.12.31:421][194]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.09.28-22.12.31:421][194]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.09.28-22.12.31:424][194]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.09.28-22.12.31:424][194]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.09.28-22.12.31:427][194]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.09.28-22.12.31:427][194]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.09.28-22.12.31:427][194]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.09.28-22.12.31:427][194]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.09.28-22.12.31:427][194]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.09.28-22.12.31:427][194]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.09.28-22.12.31:565][194]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.28-22.12.31:565][194]LogDirectoryWatcher: A directory notification for '../../../../../../Users/bsteen/Desktop/VColon/Content/' was aborted.
+[2017.09.28-22.12.31:565][194]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.28-22.12.31:565][194]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.09.28-22.12.31:569][194]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.09.28-22.12.31:570][194]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.09.28-22.12.31:570][194]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.09.28-22.12.31:570][194]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.09.28-22.12.31:570][194]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.09.28-22.12.31:571][194]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.09.28-22.12.31:572][194]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.09.28-22.12.31:572][194]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.09.28-22.12.31:573][194]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.28-22.12.31:583][194]LogDerivedDataCache: Shutdown
+[2017.09.28-22.12.31:583][194]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.28-22.12.31:583][194]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.28-22.12.31:584][194]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.28-22.12.31:585][194]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.28-22.12.31:585][194]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.28-22.12.31:585][194]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.28-22.12.31:586][194]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.09.28-22.12.31:587][194]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.09.28-22.12.31:587][194]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.28-22.12.31:588][194]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.28-22.12.31:588][194]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.28-22.12.31:588][194]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.28-22.12.31:588][194]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.28-22.12.31:590][194]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.28-22.12.31:592][194]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.28-22.12.31:592][194]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.28-22.12.31:592][194]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1ACA3E91-4246-AE7E-868D-19950B242607%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=5ef87533485b0d8d79e011ba489749cb%7Cc573d65b8ff141b7a827532cbf121a84%7C840d79ed-61a9-417a-b8f9-500dc76fae26&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.28-22.12.31:613][194]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.28-22.12.31:615][194]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.09.28-22.12.31:616][194]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.09.28-22.12.31:616][194]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.09.28-22.12.31:617][194]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.28-22.12.31:618][194]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.28-22.12.31:618][194]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.28-22.12.31:618][194]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.28-22.12.31:618][194]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.28-22.12.31:620][194]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.28-22.12.31:621][194]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.28-22.12.31:621][194]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.28-22.12.31:621][194]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.28-22.12.31:622][194]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.28-22.12.31:622][194]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.28-22.12.31:622][194]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.28-22.12.31:622][194]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.28-22.12.31:622][194]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.28-22.12.31:622][194]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.28-22.12.31:624][194]LogExit: Exiting.
+[2017.09.28-22.12.31:640][194]Log file closed, 09/28/17 18:12:31
