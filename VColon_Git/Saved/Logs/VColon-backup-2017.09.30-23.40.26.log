@@ -1,0 +1,1510 @@
+﻿Log file open, 09/30/17 23:37:25
+LogInit:Display: Running engine for game: VColon
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(709443799) SRandInit(709443799).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.109459
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.01-03.37.26:667][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.01-03.37.26:667][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.01-03.37.26:689][  0]LogInit: Computer: MSI
+[2017.10.01-03.37.26:689][  0]LogInit: User: bsteen
+[2017.10.01-03.37.26:689][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.01-03.37.26:689][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2017.10.01-03.37.26:690][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.01-03.37.26:690][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.01-03.37.26:690][  0]LogMemory: Process Physical Memory: 273.73 MB used, 273.73 MB peak
+[2017.10.01-03.37.26:690][  0]LogMemory: Process Virtual Memory: 261.17 MB used, 261.17 MB peak
+[2017.10.01-03.37.26:690][  0]LogMemory: Physical Memory: 5375.45 MB used,  10928.40 MB free, 16303.85 MB total
+[2017.10.01-03.37.26:690][  0]LogMemory: Virtual Memory: 624.15 MB used,  10928.40 MB free, 134217728.00 MB total
+[2017.10.01-03.37.27:528][  0]LogInit: Using OS detected language (en-US).
+[2017.10.01-03.37.27:529][  0]LogInit: Using OS detected locale (en-CA).
+[2017.10.01-03.37.27:534][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.01-03.37.29:078][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.01-03.37.29:171][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.10.01-03.37.29:171][  0]LogD3D11RHI:       2009/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.01-03.37.29:183][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.10.01-03.37.29:183][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.01-03.37.29:187][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.01-03.37.29:187][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.01-03.37.29:187][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.01-03.37.29:192][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.01-03.37.29:192][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2017.10.01-03.37.29:192][  0]LogWindows: EnumDisplayDevices:
+[2017.10.01-03.37.29:192][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.10.01-03.37.29:193][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.10.01-03.37.29:193][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.10.01-03.37.29:193][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.01-03.37.29:193][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.10.01-03.37.29:193][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.01-03.37.29:193][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.01-03.37.29:193][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.01-03.37.29:237][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.01-03.37.29:251][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.01-03.37.29:252][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Users/bsteen/Desktop/VColon/Intermediate/Shaders/WorkingDirectory/17636/).
+[2017.10.01-03.37.29:252][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bsteen/AppData/Local/Temp/UnrealShaderWorkingDir/7B5ADC0D409F211A37D74DB1DA688CF5/'.
+[2017.10.01-03.37.29:252][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.01-03.37.30:908][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.01-03.37.31:009][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.01-03.37.31:122][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.01-03.37.31:233][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.01-03.37.31:340][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.01-03.37.31:443][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.01-03.37.31:542][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.01-03.37.31:621][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.01-03.37.31:693][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.01-03.37.31:786][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.01-03.37.31:886][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.01-03.37.31:964][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.01-03.37.32:062][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.01-03.37.32:163][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.01-03.37.32:250][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.01-03.37.32:477][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.01-03.37.32:477][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.01-03.37.32:557][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.01-03.37.32:724][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.01-03.37.32:767][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.01-03.37.32:872][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.01-03.37.32:970][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.01-03.37.33:072][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.01-03.37.33:239][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.01-03.37.33:239][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.01-03.37.34:613][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.01-03.37.34:698][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.01-03.37.34:698][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.01-03.37.34:698][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bsteen/Desktop/VColon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.01-03.37.34:698][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.01-03.37.34:698][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bsteen/Desktop/VColon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.01-03.37.34:698][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.01-03.37.34:733][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.01-03.37.34:747][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bsteen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.01-03.37.34:766][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.01-03.37.34:766][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.01-03.37.34:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.01-03.37.34:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.01-03.37.35:257][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.01-03.37.35:361][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.01-03.37.35:730][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.01-03.37.35:833][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.01-03.37.35:938][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.01-03.37.35:938][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.01-03.37.35:938][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.01-03.37.36:878][  0]LogNetVersion: VColon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2307463867)
+[2017.10.01-03.37.36:984][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.10.01-03.37.37:108][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.072823 seconds
+[2017.10.01-03.37.37:115][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.01-03.37.37:115][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.01-03.37.37:115][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.01-03.37.37:230][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.01-03.37.42:636][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.01-03.37.42:750][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.01-03.37.43:852][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.01-03.37.44:470][  0]SourceControl: Info Source control is disabled
+[2017.10.01-03.37.44:472][  0]SourceControl: Info Source control is disabled
+[2017.10.01-03.37.44:559][  0]SourceControl: Info Source control is disabled
+[2017.10.01-03.37.44:649][  0]SourceControl: Info Source control is disabled
+[2017.10.01-03.37.45:824][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.01-03.37.46:886][  0]LogEngine: Initializing Engine...
+[2017.10.01-03.37.46:888][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.01-03.37.47:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.01-03.37.47:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.01-03.37.47:353][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.01-03.37.47:397][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.10.01-03.37.47:515][  0]LogInit: FAudioDevice initialized.
+[2017.10.01-03.37.47:588][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.01-03.37.47:600][  0]LogInit: Texture streaming: Enabled
+[2017.10.01-03.37.47:755][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.01-03.37.48:135][  0]LogInit: Transaction tracking system initialized
+[2017.10.01-03.37.48:935][  0]BlueprintLog: New page: Editor Load
+[2017.10.01-03.37.50:578][  0]LocalizationService: Info Localization service is disabled
+[2017.10.01-03.37.51:747][  0]LogConsoleResponse:Display: 
+[2017.10.01-03.37.52:020][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.01-03.37.52:020][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.01-03.37.52:844][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Content/' took 0.05s
+[2017.10.01-03.37.53:771][  0]SourceControl: Info Source control is disabled
+[2017.10.01-03.37.53:771][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.01-03.37.53:772][  0]LightingResults: New page: Lighting Build
+[2017.10.01-03.37.53:893][  0]MapCheck: New page: Map Check
+[2017.10.01-03.37.53:893][  0]LightingResults: New page: Lighting Build
+[2017.10.01-03.37.54:358][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:358][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by CharacterMesh0
+[2017.10.01-03.37.54:358][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/SceneCaptures/BP_CharacterRecorder.uasset.
+[2017.10.01-03.37.54:358][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by CharacterMesh0
+[2017.10.01-03.37.54:359][  0]LoadErrors:Error: Error /Game/SceneCaptures/BP_CharacterRecorder : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:405][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.54:405][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by CharacterMesh0
+[2017.10.01-03.37.54:405][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_InventoryType.uasset.
+[2017.10.01-03.37.54:405][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by CharacterMesh0
+[2017.10.01-03.37.54:405][  0]LoadErrors:Error: Error /Game/UI/Inventory_Equipment/UI_InventoryType : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.54:646][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning 'BP Base Armour' does not inherit from 'BP Base Item' ( Cast To BP_Base_Armour  would always fail).
+[2017.10.01-03.37.54:646][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning 'BP Base Armour' does not inherit from 'BP Base Item' ( Cast To BP_Base_Armour  would always fail).
+[2017.10.01-03.37.54:647][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning 'BP Base Armour' does not inherit from 'BP Base Item' ( Cast To BP_Base_Armour  would always fail).
+[2017.10.01-03.37.54:647][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning 'BP Base Armour' does not inherit from 'BP Base Item' ( Cast To BP_Base_Armour  would always fail).
+[2017.10.01-03.37.54:663][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning [0030.60] Compile of BP_CharacterRecorder successful, but with 4 Warning(s) [in 31 ms] (/Game/SceneCaptures/BP_CharacterRecorder.BP_CharacterRecorder)
+[2017.10.01-03.37.54:663][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning [0030.60] Compile of BP_CharacterRecorder successful, but with 5 Warning(s) [in 0 ms] (/Game/SceneCaptures/BP_CharacterRecorder.BP_CharacterRecorder)
+[2017.10.01-03.37.54:663][  0]LogBlueprint:Warning: [Compiler BP_CharacterRecorder] Warning [0030.60] Compile of BP_CharacterRecorder successful, but with 6 Warning(s) [in 0 ms] (/Game/SceneCaptures/BP_CharacterRecorder.BP_CharacterRecorder)
+[2017.10.01-03.37.54:749][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:749][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:749][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:749][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:749][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:749][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:749][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:749][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:749][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:749][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:749][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:749][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:750][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:750][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:750][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:750][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:750][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:750][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:750][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:750][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:750][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:751][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:751][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:751][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:751][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:751][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:751][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:751][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.54:751][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:751][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.54:751][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:751][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:751][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:752][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:752][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:752][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:752][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:752][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:752][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:752][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.54:752][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:752][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.54:753][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:753][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by CH_MyChar
+[2017.10.01-03.37.54:753][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:753][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by CH_MyChar
+[2017.10.01-03.37.54:753][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:754][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.54:754][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by CH_MyChar
+[2017.10.01-03.37.54:754][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:754][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by CH_MyChar
+[2017.10.01-03.37.54:754][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.54:760][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.54:760][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by K2Node_CreateWidget_16
+[2017.10.01-03.37.54:760][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:760][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by K2Node_CreateWidget_16
+[2017.10.01-03.37.54:760][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.54:760][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.54:760][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by K2Node_CreateWidget_16
+[2017.10.01-03.37.54:760][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:760][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by K2Node_CreateWidget_16
+[2017.10.01-03.37.54:760][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.54:761][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.54:761][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by K2Node_VariableGet_249
+[2017.10.01-03.37.54:761][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:761][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by K2Node_VariableGet_249
+[2017.10.01-03.37.54:761][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.54:761][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.54:761][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by K2Node_VariableSet_218
+[2017.10.01-03.37.54:761][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:761][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by K2Node_VariableSet_218
+[2017.10.01-03.37.54:761][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.54:761][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.54:761][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by K2Node_VariableSet_218
+[2017.10.01-03.37.54:761][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:761][  0]LoadErrors: Info Failed to load /Game/UI/UI_InventoryEquipment.UI_InventoryEquipment_C Referenced by K2Node_VariableSet_218
+[2017.10.01-03.37.54:762][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.54:768][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:768][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2204
+[2017.10.01-03.37.54:768][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:768][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2204
+[2017.10.01-03.37.54:768][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:768][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:768][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_CallFunction_4956
+[2017.10.01-03.37.54:768][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:769][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_CallFunction_4956
+[2017.10.01-03.37.54:769][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:769][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:769][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_CallFunction_4956
+[2017.10.01-03.37.54:769][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:769][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_CallFunction_4956
+[2017.10.01-03.37.54:769][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:769][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:769][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_1727
+[2017.10.01-03.37.54:769][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:769][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_1727
+[2017.10.01-03.37.54:769][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:770][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:770][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_CallFunction_774
+[2017.10.01-03.37.54:770][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:770][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_CallFunction_774
+[2017.10.01-03.37.54:770][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:770][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:770][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_CallFunction_774
+[2017.10.01-03.37.54:770][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:770][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_CallFunction_774
+[2017.10.01-03.37.54:770][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:771][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:771][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2861
+[2017.10.01-03.37.54:771][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:771][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2861
+[2017.10.01-03.37.54:771][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:771][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:771][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2862
+[2017.10.01-03.37.54:771][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:771][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2862
+[2017.10.01-03.37.54:771][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:771][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:771][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2862
+[2017.10.01-03.37.54:771][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:771][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2862
+[2017.10.01-03.37.54:771][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:771][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:771][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2862
+[2017.10.01-03.37.54:772][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:772][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2862
+[2017.10.01-03.37.54:772][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:772][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:772][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2863
+[2017.10.01-03.37.54:772][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:772][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2863
+[2017.10.01-03.37.54:772][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:772][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:772][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2863
+[2017.10.01-03.37.54:772][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:772][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2863
+[2017.10.01-03.37.54:772][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:772][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:772][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2864
+[2017.10.01-03.37.54:773][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:773][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2864
+[2017.10.01-03.37.54:773][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:773][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:773][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2866
+[2017.10.01-03.37.54:773][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:773][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2866
+[2017.10.01-03.37.54:773][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:773][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:773][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2866
+[2017.10.01-03.37.54:773][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:773][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2866
+[2017.10.01-03.37.54:773][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:774][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:774][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2901
+[2017.10.01-03.37.54:774][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:774][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2901
+[2017.10.01-03.37.54:774][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:774][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:774][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2903
+[2017.10.01-03.37.54:774][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:774][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2903
+[2017.10.01-03.37.54:774][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:774][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:774][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2903
+[2017.10.01-03.37.54:774][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:774][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2903
+[2017.10.01-03.37.54:774][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:775][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:775][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2938
+[2017.10.01-03.37.54:775][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:775][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2938
+[2017.10.01-03.37.54:775][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:775][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:775][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2940
+[2017.10.01-03.37.54:775][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:775][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2940
+[2017.10.01-03.37.54:775][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:775][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:775][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2940
+[2017.10.01-03.37.54:775][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:775][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2940
+[2017.10.01-03.37.54:775][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:776][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:776][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2975
+[2017.10.01-03.37.54:776][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:776][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_2975
+[2017.10.01-03.37.54:776][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:776][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:776][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2977
+[2017.10.01-03.37.54:776][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:776][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2977
+[2017.10.01-03.37.54:776][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:776][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:776][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2977
+[2017.10.01-03.37.54:777][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:777][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_2977
+[2017.10.01-03.37.54:777][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:778][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:778][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3012
+[2017.10.01-03.37.54:778][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:778][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3012
+[2017.10.01-03.37.54:778][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:779][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:779][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3014
+[2017.10.01-03.37.54:779][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:779][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3014
+[2017.10.01-03.37.54:779][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:779][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:779][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3014
+[2017.10.01-03.37.54:779][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:779][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3014
+[2017.10.01-03.37.54:779][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:779][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:779][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3049
+[2017.10.01-03.37.54:780][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:780][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3049
+[2017.10.01-03.37.54:780][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:780][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:780][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3051
+[2017.10.01-03.37.54:780][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:780][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3051
+[2017.10.01-03.37.54:780][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:780][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:780][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3051
+[2017.10.01-03.37.54:780][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:780][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3051
+[2017.10.01-03.37.54:780][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:781][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:781][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3120
+[2017.10.01-03.37.54:781][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:781][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3120
+[2017.10.01-03.37.54:781][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:781][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:781][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3120
+[2017.10.01-03.37.54:781][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:781][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3120
+[2017.10.01-03.37.54:781][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:781][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:781][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3120
+[2017.10.01-03.37.54:781][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:781][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3120
+[2017.10.01-03.37.54:781][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:781][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:782][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3198
+[2017.10.01-03.37.54:782][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:782][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3198
+[2017.10.01-03.37.54:782][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:782][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:782][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3198
+[2017.10.01-03.37.54:782][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:782][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3198
+[2017.10.01-03.37.54:782][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:782][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:782][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3198
+[2017.10.01-03.37.54:782][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:782][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3198
+[2017.10.01-03.37.54:782][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:782][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:782][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3199
+[2017.10.01-03.37.54:782][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:782][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3199
+[2017.10.01-03.37.54:783][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:783][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:783][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3199
+[2017.10.01-03.37.54:783][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:783][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3199
+[2017.10.01-03.37.54:783][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:783][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:783][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3199
+[2017.10.01-03.37.54:783][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:783][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3199
+[2017.10.01-03.37.54:783][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:783][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:783][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3200
+[2017.10.01-03.37.54:783][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:783][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3200
+[2017.10.01-03.37.54:783][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:783][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:783][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3200
+[2017.10.01-03.37.54:783][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:784][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3200
+[2017.10.01-03.37.54:784][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:784][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:784][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3200
+[2017.10.01-03.37.54:784][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:784][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3200
+[2017.10.01-03.37.54:784][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:784][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:784][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3201
+[2017.10.01-03.37.54:784][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:784][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3201
+[2017.10.01-03.37.54:784][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:784][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:784][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3201
+[2017.10.01-03.37.54:784][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:784][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3201
+[2017.10.01-03.37.54:784][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:784][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:784][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3201
+[2017.10.01-03.37.54:785][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:785][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3201
+[2017.10.01-03.37.54:785][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:785][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:785][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3202
+[2017.10.01-03.37.54:785][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:785][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3202
+[2017.10.01-03.37.54:785][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:785][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.54:785][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3202
+[2017.10.01-03.37.54:785][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:785][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_3202
+[2017.10.01-03.37.54:785][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.54:785][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.54:785][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3202
+[2017.10.01-03.37.54:785][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2017.10.01-03.37.54:785][  0]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_3202
+[2017.10.01-03.37.54:785][  0]LoadErrors:Error: Error /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.54:826][  0]LogBlueprint:Warning: [CH_MyChar] 'Head' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:826][  0]LogBlueprint:Warning: [CH_MyChar] 'ItemInfo' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:826][  0]LogBlueprint:Warning: [CH_MyChar] 'ItemInfo' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:827][  0]LogBlueprint:Warning: [CH_MyChar] 'ItemInfo' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:827][  0]LogBlueprint:Warning: [CH_MyChar] 'ItemInfo' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:827][  0]LogBlueprint:Warning: [CH_MyChar] 'ItemInfo' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:828][  0]LogBlueprint:Warning: [CH_MyChar] 'ItemInfo' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:828][  0]LogBlueprint:Warning: [CH_MyChar] 'Torso' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:828][  0]LogBlueprint:Warning: [CH_MyChar] 'Arms' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:828][  0]LogBlueprint:Warning: [CH_MyChar] 'Legs' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:828][  0]LogBlueprint:Warning: [CH_MyChar] 'Melee' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:828][  0]LogBlueprint:Warning: [CH_MyChar] 'PrimaryFPS' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:828][  0]LogBlueprint:Warning: [CH_MyChar] 'SecondaryFPS' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:835][  0]LogBlueprint:Warning: [CH_MyChar] 'ItemInfo' variable not found. Base class was probably changed.
+[2017.10.01-03.37.54:892][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error Spawn node  Create Widget  must have a class specified.
+[2017.10.01-03.37.54:913][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error Could not find a function named "CreateEquipment" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Create Equipment
+[2017.10.01-03.37.54:914][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error Could not find a function named "CreateEquipment" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Create Equipment
+[2017.10.01-03.37.54:918][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "Head" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get Head
+[2017.10.01-03.37.54:918][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.54:919][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.54:919][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.54:919][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.54:919][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.54:919][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.54:919][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.54:920][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "Torso" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get Torso
+[2017.10.01-03.37.54:920][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "Arms" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get Arms
+[2017.10.01-03.37.54:920][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "Legs" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get Legs
+[2017.10.01-03.37.54:920][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "Melee" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get Melee
+[2017.10.01-03.37.54:920][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "PrimaryFPS" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get PrimaryFPS
+[2017.10.01-03.37.54:920][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "SecondaryFPS" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get SecondaryFPS
+[2017.10.01-03.37.54:942][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.10.01-03.37.54:951][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.54:951][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.54:951][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.54:951][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.54:951][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.54:951][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.54:951][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Legs  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Arms  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Torso  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Melee  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Primary FPS  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Secondary FPS  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Head  could not be found
+[2017.10.01-03.37.54:952][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.55:009][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0030.95] Compile of CH_MyChar failed. 25 Fatal Issue(s) 14 Warning(s) [in 147 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.10.01-03.37.55:012][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0030.95] Compile of CH_MyChar failed. 25 Fatal Issue(s) 15 Warning(s) [in 3 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.10.01-03.37.55:012][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0030.95] Compile of CH_MyChar failed. 25 Fatal Issue(s) 16 Warning(s) [in 0 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.10.01-03.37.55:163][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error Spawn node  Create Widget  must have a class specified.
+[2017.10.01-03.37.55:180][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error Could not find a function named "CreateEquipment" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Create Equipment
+[2017.10.01-03.37.55:180][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error Could not find a function named "CreateEquipment" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Create Equipment
+[2017.10.01-03.37.55:184][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "Head" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get Head
+[2017.10.01-03.37.55:184][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "ItemInfo" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get ItemInfo
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "Torso" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get Torso
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "Arms" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get Arms
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "Legs" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get Legs
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "Melee" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get Melee
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "PrimaryFPS" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get PrimaryFPS
+[2017.10.01-03.37.55:185][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning Could not find a variable named "SecondaryFPS" in 'CH_MyChar'.
+Make sure 'CH_MyChar' has been compiled for  Get SecondaryFPS
+[2017.10.01-03.37.55:202][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Legs  could not be found
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Arms  could not be found
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Torso  could not be found
+[2017.10.01-03.37.55:212][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.55:213][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Melee  could not be found
+[2017.10.01-03.37.55:213][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Primary FPS  could not be found
+[2017.10.01-03.37.55:213][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.55:213][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.55:213][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Secondary FPS  could not be found
+[2017.10.01-03.37.55:213][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.55:213][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Head  could not be found
+[2017.10.01-03.37.55:213][  0]LogBlueprint:Error: [Compiler CH_MyChar] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.37.55:312][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0031.25] Compile of CH_MyChar failed. 25 Fatal Issue(s) 14 Warning(s) [in 166 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.10.01-03.37.55:312][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0031.25] Compile of CH_MyChar failed. 25 Fatal Issue(s) 15 Warning(s) [in 0 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.10.01-03.37.55:317][  0]LogBlueprint:Warning: [Compiler CH_MyChar] Warning [0031.25] Compile of CH_MyChar failed. 25 Fatal Issue(s) 16 Warning(s) [in 5 ms] (/Game/Characters/CH_MyChar.CH_MyChar)
+[2017.10.01-03.37.55:338][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.55:338][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:338][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.55:339][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.55:339][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:339][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.55:339][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.55:339][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:339][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.55:339][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.55:340][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:340][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.55:340][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.55:340][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:340][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.55:340][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.55:340][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:340][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.55:341][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.55:341][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:341][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.55:349][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.55:349][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:349][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.55:350][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.55:350][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:350][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.55:351][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.55:351][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:351][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.55:353][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.55:353][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:353][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.55:354][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.37.55:354][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:354][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.37.55:354][  0]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.37.55:354][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:355][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.37.55:355][  0]LogLinker:Warning: Can't find file '/Game/UI/UI_InventoryEquipment'
+[2017.10.01-03.37.55:355][  0]LogLinker:Warning: Can't find file for asset '/Game/UI/UI_InventoryEquipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/Characters/CH_MyChar.uasset.
+[2017.10.01-03.37.55:355][  0]LoadErrors:Error: Error /Game/Characters/CH_MyChar : Can't find file for asset. /Game/UI/UI_InventoryEquipment
+[2017.10.01-03.37.55:605][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.10.01-03.37.55:610][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0031.55] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 12 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.10.01-03.37.55:610][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0031.55] Compile of TopDownCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.10.01-03.37.55:610][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0031.55] Compile of TopDownCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.10.01-03.37.55:616][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.10.01-03.37.55:619][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0031.56] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 6 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.10.01-03.37.55:619][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0031.56] Compile of TopDownCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.10.01-03.37.55:619][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0031.56] Compile of TopDownCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.10.01-03.37.55:637][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning InputAction Event references unknown Action 'SetDestination' for  InputAction SetDestination
+[2017.10.01-03.37.55:642][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0031.58] Compile of TopDownController successful, but with 1 Warning(s) [in 8 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.10.01-03.37.55:642][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0031.58] Compile of TopDownController successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.10.01-03.37.55:642][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0031.58] Compile of TopDownController successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.10.01-03.37.55:646][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning InputAction Event references unknown Action 'SetDestination' for  InputAction SetDestination
+[2017.10.01-03.37.55:650][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0031.59] Compile of TopDownController successful, but with 1 Warning(s) [in 6 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.10.01-03.37.55:650][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0031.59] Compile of TopDownController successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.10.01-03.37.55:650][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0031.59] Compile of TopDownController successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.10.01-03.37.56:107][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.10.01-03.37.56:121][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.01-03.37.56:147][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.01-03.37.56:316][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 168.706ms to complete.
+[2017.10.01-03.37.56:316][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.545
+[2017.10.01-03.37.56:474][  0]LogCollectionManager: Loaded 0 collections in 0.002268 seconds
+[2017.10.01-03.37.56:626][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Saved/Collections/' took 0.01s
+[2017.10.01-03.37.56:626][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Content/Developers/bsteen/Collections/' took 0.01s
+[2017.10.01-03.37.56:626][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Content/Collections/' took 0.01s
+[2017.10.01-03.37.56:626][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.01-03.37.56:637][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2330 classes and 493 folders.
+[2017.10.01-03.37.56:752][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.10.01-03.37.56:826][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2017.10.01-03.37.56:893][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2017.10.01-03.37.56:946][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.01-03.37.56:951][  0]LogSlate: Took 0.000436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.01-03.37.56:954][  0]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.01-03.37.56:962][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.01-03.37.57:064][  0]LogRenderer: Reallocating scene render targets to support 512x512 NumSamples 1 (Frame:1).
+[2017.10.01-03.37.57:091][  0]LogRenderer: Reallocating scene render targets to support 940x512 NumSamples 1 (Frame:1).
+[2017.10.01-03.37.57:126][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.01-03.37.57:209][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.01-03.37.57:366][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0041 seconds. Added 1 classes and 2 folders.
+[2017.10.01-03.37.57:366][  0]LogLoad: (Engine Initialization) Total time: 33.30 seconds
+[2017.10.01-03.37.57:366][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.90 seconds
+[2017.10.01-03.37.57:366][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.01-03.37.57:707][  0]LogOcInput: OculusInput pre-init called
+[2017.10.01-03.37.57:707][  0]LogHMD: Starting GearVRController plugin
+[2017.10.01-03.37.57:771][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.01-03.37.58:379][  2]LogAssetRegistry: Asset discovery search completed in 21.4165 seconds
+[2017.10.01-03.37.58:381][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.01-03.37.58:381][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2017.10.01-03.38.03:372][ 17]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/bsteen/Desktop/VColon/Content/' took 5.64s
+[2017.10.01-03.38.46:661][360]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.01-03.38.46:736][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.10.01-03.38.46:736][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.01-03.39.04:946][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:946][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_InventoryEquipment.uasset.
+[2017.10.01-03.39.04:946][281]LoadErrors:Error: Error /Game/UI/Inventory_Equipment/UI_InventoryEquipment : Can't find file for asset. /Game/UI/Equipment/UI_Equipment
+[2017.10.01-03.39.04:946][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:947][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_InventoryEquipment.uasset.
+[2017.10.01-03.39.04:948][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:948][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:948][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:948][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:949][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:949][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:949][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:949][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:949][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:949][281]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by WidgetTree
+[2017.10.01-03.39.04:949][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:950][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:950][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:950][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:950][281]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by CanvasPanelSlot_2
+[2017.10.01-03.39.04:950][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:950][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:950][281]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableSet_33
+[2017.10.01-03.39.04:950][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:951][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:951][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:951][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:951][281]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_Equipment.UI_Equipment_C Referenced by K2Node_VariableGet_361
+[2017.10.01-03.39.04:951][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:952][281]LogBlueprint:Warning: [UI_InventoryEquipment] 'UI_Equipment_Widget' variable not found. Base class was probably changed.
+[2017.10.01-03.39.04:957][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:957][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:957][281]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.04:957][281]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading NULL.
+[2017.10.01-03.39.04:964][281]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.01-03.39.05:428][281]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 112 classes and 0 folders.
+[2017.10.01-03.39.06:512][281]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.01-03.39.06:514][281]LogSlate: Took 0.000407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.01-03.39.09:858][404]BlueprintLog: New page: Compile UI_InventoryEquipment
+[2017.10.01-03.39.09:895][404]LogLinker: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.09:895][404]LogLinker: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_InventoryEquipment.uasset.
+[2017.10.01-03.39.09:895][404]LogLinker: Can't find file '/Game/UI/Equipment/UI_Equipment'
+[2017.10.01-03.39.09:895][404]LogLinker: Can't find file for asset '/Game/UI/Equipment/UI_Equipment' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_InventoryEquipment.uasset.
+[2017.10.01-03.39.09:981][404]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.01-03.39.15:132][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:132][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_Equipment.uasset.
+[2017.10.01-03.39.15:133][679]LoadErrors:Error: Error /Game/UI/Inventory_Equipment/UI_Equipment : Can't find file for asset. /Game/UI/Equipment/UI_EquipmentSlot
+[2017.10.01-03.39.15:133][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:133][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_Equipment.uasset.
+[2017.10.01-03.39.15:134][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:134][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_Equipment.uasset.
+[2017.10.01-03.39.15:134][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:134][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_Equipment.uasset.
+[2017.10.01-03.39.15:135][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:135][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_Equipment.uasset.
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:141][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:142][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:142][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:142][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:142][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by WidgetTree
+[2017.10.01-03.39.15:142][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:142][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:142][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:143][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:144][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:145][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:145][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:145][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:145][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:145][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:145][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by UniformGridSlot_1
+[2017.10.01-03.39.15:145][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:146][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by UniformGridSlot_2
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:146][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by UniformGridSlot_3
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:146][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:147][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by UniformGridSlot_4
+[2017.10.01-03.39.15:147][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:147][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:147][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:147][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:147][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by UniformGridSlot_5
+[2017.10.01-03.39.15:147][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:147][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:147][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:147][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:147][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by UniformGridSlot_6
+[2017.10.01-03.39.15:148][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:148][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:148][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:148][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:148][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by UniformGridSlot_7
+[2017.10.01-03.39.15:148][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:148][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:148][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:148][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:148][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by UniformGridSlot_8
+[2017.10.01-03.39.15:148][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:151][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:151][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_CallFunction_145
+[2017.10.01-03.39.15:151][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:151][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:151][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_64
+[2017.10.01-03.39.15:151][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:151][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:151][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_CallFunction_146
+[2017.10.01-03.39.15:152][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:152][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:152][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_65
+[2017.10.01-03.39.15:152][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:152][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:152][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_CallFunction_147
+[2017.10.01-03.39.15:152][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:152][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:152][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_CallFunction_148
+[2017.10.01-03.39.15:153][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:153][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:153][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_CallFunction_149
+[2017.10.01-03.39.15:153][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:153][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:153][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_CallFunction_150
+[2017.10.01-03.39.15:153][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:153][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:154][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_CallFunction_135
+[2017.10.01-03.39.15:154][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:154][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:154][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_67
+[2017.10.01-03.39.15:154][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:154][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:154][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_68
+[2017.10.01-03.39.15:154][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:154][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:155][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_69
+[2017.10.01-03.39.15:155][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:155][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:155][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_70
+[2017.10.01-03.39.15:155][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:155][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:155][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_66
+[2017.10.01-03.39.15:155][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:155][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:156][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_431
+[2017.10.01-03.39.15:156][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:156][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:156][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_34
+[2017.10.01-03.39.15:156][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:156][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:156][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_448
+[2017.10.01-03.39.15:156][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:157][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:157][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_444
+[2017.10.01-03.39.15:157][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:157][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:157][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_445
+[2017.10.01-03.39.15:157][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:157][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:158][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_446
+[2017.10.01-03.39.15:158][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:158][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:158][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_447
+[2017.10.01-03.39.15:158][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:158][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:158][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_CallFunction_211
+[2017.10.01-03.39.15:159][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:159][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:159][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:159][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:160][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_FunctionEntry_26
+[2017.10.01-03.39.15:160][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:160][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:160][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:160][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:160][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableSet_0
+[2017.10.01-03.39.15:160][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:161][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:161][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:161][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:161][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_Knot_18
+[2017.10.01-03.39.15:161][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:161][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:162][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:162][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:162][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_10
+[2017.10.01-03.39.15:162][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:162][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:162][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:163][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:163][679]LoadErrors: Info Failed to load /Game/UI/Equipment/UI_EquipmentSlot.UI_EquipmentSlot_C Referenced by K2Node_VariableGet_11
+[2017.10.01-03.39.15:163][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:163][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:163][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:167][679]LogBlueprint:Warning: [UI_Equipment] 'ItemInfo' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:167][679]LogBlueprint:Warning: [UI_Equipment] 'ItemInfo' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:167][679]LogBlueprint:Warning: [UI_Equipment] 'EquipmentItemButton' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:167][679]LogBlueprint:Warning: [UI_Equipment] 'EquipmentItemText' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:168][679]LogBlueprint:Warning: [UI_Equipment] 'Arms' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:168][679]LogBlueprint:Warning: [UI_Equipment] 'Legs' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:168][679]LogBlueprint:Warning: [UI_Equipment] 'Melee' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:168][679]LogBlueprint:Warning: [UI_Equipment] 'Head' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:168][679]LogBlueprint:Warning: [UI_Equipment] 'Torso' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:169][679]LogBlueprint:Warning: [UI_Equipment] 'Torso' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:169][679]LogBlueprint:Warning: [UI_Equipment] 'Head' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:169][679]LogBlueprint:Warning: [UI_Equipment] 'PrimaryFPS' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:169][679]LogBlueprint:Warning: [UI_Equipment] 'SecondaryFPS' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:169][679]LogBlueprint:Warning: [UI_Equipment] 'PrimaryFPS' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:169][679]LogBlueprint:Warning: [UI_Equipment] 'Legs' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:169][679]LogBlueprint:Warning: [UI_Equipment] 'SecondaryFPS' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:169][679]LogBlueprint:Warning: [UI_Equipment] 'Arms' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:169][679]LogBlueprint:Warning: [UI_Equipment] 'Melee' variable not found. Base class was probably changed.
+[2017.10.01-03.39.15:172][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Could not find a function named "EmptyTheSlot" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Empty the Slot
+[2017.10.01-03.39.15:172][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "PrimaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get PrimaryFPS
+[2017.10.01-03.39.15:172][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Melee" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Melee
+[2017.10.01-03.39.15:172][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Legs" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Legs
+[2017.10.01-03.39.15:172][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Arms" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Arms
+[2017.10.01-03.39.15:172][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "SecondaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get SecondaryFPS
+[2017.10.01-03.39.15:172][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Torso" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Torso
+[2017.10.01-03.39.15:172][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Head" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Head
+[2017.10.01-03.39.15:173][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Secondary FPS  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.15:173][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "SecondaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get SecondaryFPS
+[2017.10.01-03.39.15:173][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Primary FPS  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.15:173][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "PrimaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get PrimaryFPS
+[2017.10.01-03.39.15:173][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Melee  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.15:173][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Melee" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Melee
+[2017.10.01-03.39.15:173][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Legs  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.15:173][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Legs" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Legs
+[2017.10.01-03.39.15:173][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Arms  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.15:174][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Arms" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Arms
+[2017.10.01-03.39.15:174][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Secondary FPS : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.15:174][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Primary FPS : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.15:174][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Melee : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.15:174][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Legs : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.15:174][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Arms : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.15:174][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Torso  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.15:174][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Torso" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Torso
+[2017.10.01-03.39.15:174][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Torso : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.15:174][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Head  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.15:174][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Head" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Head
+[2017.10.01-03.39.15:174][679]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Head : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.15:175][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "ItemInfo" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Set ItemInfo
+[2017.10.01-03.39.15:175][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "EquipmentItemButton" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Get EquipmentItemButton
+[2017.10.01-03.39.15:175][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "EquipmentItemText" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Get EquipmentItemText
+[2017.10.01-03.39.15:176][679]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.39.15:176][679]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Equipment Item Text  could not be found
+[2017.10.01-03.39.15:176][679]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Equipment Item Button  could not be found
+[2017.10.01-03.39.15:176][679]LogBlueprint:Error: [Compiler UI_Equipment] Error No input structure to break for  Item Info
+[2017.10.01-03.39.15:180][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning [0111.12] Compile of UI_Equipment failed. 19 Fatal Issue(s) 17 Warning(s) [in 10 ms] (/Game/UI/Inventory_Equipment/UI_Equipment.UI_Equipment)
+[2017.10.01-03.39.15:180][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning [0111.12] Compile of UI_Equipment failed. 19 Fatal Issue(s) 18 Warning(s) [in 0 ms] (/Game/UI/Inventory_Equipment/UI_Equipment.UI_Equipment)
+[2017.10.01-03.39.15:180][679]LogBlueprint:Warning: [Compiler UI_Equipment] Warning [0111.12] Compile of UI_Equipment failed. 19 Fatal Issue(s) 19 Warning(s) [in 0 ms] (/Game/UI/Inventory_Equipment/UI_Equipment.UI_Equipment)
+[2017.10.01-03.39.15:182][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:182][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:182][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:182][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:183][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.15:184][679]LogLinker:Warning: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading NULL.
+[2017.10.01-03.39.16:742][730]BlueprintLog: New page: Compile UI_Equipment
+[2017.10.01-03.39.16:783][730]LogLinker: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.16:784][730]LogLinker: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_Equipment.uasset.
+[2017.10.01-03.39.16:784][730]LogLinker: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.16:784][730]LogLinker: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_Equipment.uasset.
+[2017.10.01-03.39.16:785][730]LogLinker: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.16:785][730]LogLinker: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_Equipment.uasset.
+[2017.10.01-03.39.16:785][730]LogLinker: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.16:785][730]LogLinker: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_Equipment.uasset.
+[2017.10.01-03.39.16:786][730]LogLinker: Can't find file '/Game/UI/Equipment/UI_EquipmentSlot'
+[2017.10.01-03.39.16:786][730]LogLinker: Can't find file for asset '/Game/UI/Equipment/UI_EquipmentSlot' while loading ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory_Equipment/UI_Equipment.uasset.
+[2017.10.01-03.39.16:790][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Could not find a function named "EmptyTheSlot" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Empty the Slot
+[2017.10.01-03.39.16:790][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "PrimaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get PrimaryFPS
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Melee" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Melee
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Legs" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Legs
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Arms" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Arms
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "SecondaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get SecondaryFPS
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Torso" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Torso
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Head" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Head
+[2017.10.01-03.39.16:791][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Secondary FPS  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "SecondaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get SecondaryFPS
+[2017.10.01-03.39.16:791][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Primary FPS  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "PrimaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get PrimaryFPS
+[2017.10.01-03.39.16:791][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Melee  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Melee" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Melee
+[2017.10.01-03.39.16:791][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Legs  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Legs" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Legs
+[2017.10.01-03.39.16:791][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Arms  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:791][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Arms" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Arms
+[2017.10.01-03.39.16:792][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Secondary FPS : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:792][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Primary FPS : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:792][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Melee : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:792][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Legs : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:792][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Arms : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:792][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Torso  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:792][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Torso" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Torso
+[2017.10.01-03.39.16:792][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Torso : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:792][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Head  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:792][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "Head" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Head
+[2017.10.01-03.39.16:792][730]LogBlueprint:Error: [Compiler UI_Equipment] Error Can't connect pins  Slot  and  Head : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:794][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "ItemInfo" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Set ItemInfo
+[2017.10.01-03.39.16:794][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "EquipmentItemButton" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Get EquipmentItemButton
+[2017.10.01-03.39.16:794][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning Could not find a variable named "EquipmentItemText" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Get EquipmentItemText
+[2017.10.01-03.39.16:794][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Primary FPS  could not be found
+[2017.10.01-03.39.16:794][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Head  could not be found
+[2017.10.01-03.39.16:794][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Torso  could not be found
+[2017.10.01-03.39.16:794][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Arms  could not be found
+[2017.10.01-03.39.16:794][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Legs  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Melee  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Primary FPS  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Secondary FPS  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Head  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Torso  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Secondary FPS  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Arms  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Legs  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Melee  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Item Info  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Equipment Item Text  could not be found
+[2017.10.01-03.39.16:795][730]LogBlueprint:Error: [Compiler UI_Equipment] Error The property associated with  Equipment Item Button  could not be found
+[2017.10.01-03.39.16:796][730]LogBlueprint:Error: [Compiler UI_Equipment] Error No input structure to break for  Item Info
+[2017.10.01-03.39.16:992][730]BlueprintEditorCompileResults:Error: Error Could not find a function named "EmptyTheSlot" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Empty the Slot
+[2017.10.01-03.39.16:992][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PrimaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get PrimaryFPS
+[2017.10.01-03.39.16:992][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Melee" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Melee
+[2017.10.01-03.39.16:992][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Legs" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Legs
+[2017.10.01-03.39.16:992][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Arms" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Arms
+[2017.10.01-03.39.16:992][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "SecondaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get SecondaryFPS
+[2017.10.01-03.39.16:992][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Torso" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Torso
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Head" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Head
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Secondary FPS  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "SecondaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get SecondaryFPS
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Primary FPS  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PrimaryFPS" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get PrimaryFPS
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Melee  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Melee" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Melee
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Legs  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Legs" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Legs
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Arms  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Arms" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Arms
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Slot  and  Secondary FPS : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Slot  and  Primary FPS : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Slot  and  Melee : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Slot  and  Legs : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Slot  and  Arms : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Torso  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Torso" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Torso
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Slot  and  Torso : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Head  and  Slot : Reference is not compatible with Object Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Head" in 'UI_Equipment_C'.
+Make sure 'UI_Equipment_C' has been compiled for  Get Head
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error Can't connect pins  Slot  and  Head : Object Reference is not compatible with Reference.
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ItemInfo" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Set ItemInfo
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "EquipmentItemButton" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Get EquipmentItemButton
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "EquipmentItemText" in 'UI_Equipment'.
+Make sure 'UI_Equipment' has been compiled for  Get EquipmentItemText
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error The property associated with  Primary FPS  could not be found
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error The property associated with  Head  could not be found
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error The property associated with  Torso  could not be found
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error The property associated with  Arms  could not be found
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error The property associated with  Legs  could not be found
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error The property associated with  Melee  could not be found
+[2017.10.01-03.39.16:993][730]BlueprintEditorCompileResults:Error: Error The property associated with  Primary FPS  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error The property associated with  Secondary FPS  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error The property associated with  Head  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error The property associated with  Torso  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error The property associated with  Secondary FPS  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error The property associated with  Arms  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error The property associated with  Legs  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error The property associated with  Melee  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error The property associated with  Item Info  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error The property associated with  Equipment Item Text  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error The property associated with  Equipment Item Button  could not be found
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults:Error: Error No input structure to break for  Item Info
+[2017.10.01-03.39.16:994][730]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.01-03.39.16:994][730]LogBlueprint:Warning: [Compiler UI_Equipment] Warning [0112.93] Compile of UI_Equipment failed. 33 Fatal Issue(s) 17 Warning(s) [in 251 ms] (/Game/UI/Inventory_Equipment/UI_Equipment.UI_Equipment)
+[2017.10.01-03.39.18:883][828]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.01-03.40.18:163][551]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.01-03.40.18:349][552]Cmd: QUIT_EDITOR
+[2017.10.01-03.40.18:402][552]LogExit: Preparing to exit.
+[2017.10.01-03.40.18:985][552]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Desktop/VColon/Content/' was aborted.
+[2017.10.01-03.40.19:044][552]LogExit: Editor shut down
+[2017.10.01-03.40.19:047][552]LogExit: Transaction tracking system shut down
+[2017.10.01-03.40.19:135][552]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.01-03.40.19:135][552]LogExit: Object subsystem successfully closed.
+[2017.10.01-03.40.19:157][552]LogD3D11RHI: Shutdown
+[2017.10.01-03.40.19:157][552]LogD3D11RHI: CleanupD3DDevice
+[2017.10.01-03.40.19:283][552]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.01-03.40.19:361][552]LogModuleManager: Shutting down and abandoning module SequencerWidgets (532)
+[2017.10.01-03.40.19:361][552]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.10.01-03.40.19:361][552]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.10.01-03.40.19:361][552]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.10.01-03.40.19:361][552]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.10.01-03.40.19:361][552]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.10.01-03.40.19:361][552]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.10.01-03.40.19:361][552]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.10.01-03.40.19:363][552]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Desktop/VColon/Content/Collections/' was aborted.
+[2017.10.01-03.40.19:363][552]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Desktop/VColon/Content/Developers/bsteen/Collections/' was aborted.
+[2017.10.01-03.40.19:363][552]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Desktop/VColon/Saved/Collections/' was aborted.
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.10.01-03.40.19:363][552]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.10.01-03.40.19:364][552]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.10.01-03.40.20:243][552]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.10.01-03.40.20:244][552]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.10.01-03.40.20:244][552]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.10.01-03.40.20:244][552]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.10.01-03.40.20:244][552]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.10.01-03.40.20:244][552]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.10.01-03.40.20:244][552]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.10.01-03.40.20:244][552]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.10.01-03.40.20:299][552]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.10.01-03.40.20:299][552]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.10.01-03.40.20:299][552]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.10.01-03.40.20:299][552]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.10.01-03.40.20:299][552]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.10.01-03.40.20:299][552]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.10.01-03.40.20:299][552]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.10.01-03.40.20:299][552]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.10.01-03.40.20:299][552]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.10.01-03.40.20:299][552]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.10.01-03.40.20:306][552]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.10.01-03.40.20:551][552]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.10.01-03.40.20:552][552]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.10.01-03.40.20:553][552]LogDirectoryWatcher: A directory notification for 'C:/Users/bsteen/Desktop/VColon/Binaries/Win64' was aborted.
+[2017.10.01-03.40.20:553][552]LogModuleManager: Shutting down and abandoning module VColon (248)
+[2017.10.01-03.40.20:553][552]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.01-03.40.20:553][552]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.01-03.40.20:553][552]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.01-03.40.20:553][552]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.01-03.40.20:553][552]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.01-03.40.20:553][552]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.01-03.40.20:654][552]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.01-03.40.20:754][552]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.01-03.40.20:754][552]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.01-03.40.20:754][552]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.01-03.40.20:754][552]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.01-03.40.20:754][552]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.01-03.40.20:754][552]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.01-03.40.20:755][552]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.01-03.40.20:755][552]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.01-03.40.20:756][552]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.01-03.40.20:757][552]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.01-03.40.20:757][552]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.01-03.40.20:757][552]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.01-03.40.20:757][552]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.01-03.40.20:757][552]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.01-03.40.20:765][552]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.01-03.40.20:765][552]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.01-03.40.20:765][552]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.01-03.40.20:765][552]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.01-03.40.20:765][552]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.01-03.40.20:765][552]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.01-03.40.20:878][552]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.01-03.40.20:878][552]LogDirectoryWatcher: A directory notification for '../../../../../../Users/bsteen/Desktop/VColon/Content/' was aborted.
+[2017.10.01-03.40.20:878][552]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.01-03.40.20:879][552]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.01-03.40.20:883][552]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.01-03.40.20:884][552]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.01-03.40.20:884][552]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.01-03.40.20:884][552]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.01-03.40.20:884][552]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.01-03.40.20:884][552]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.01-03.40.20:884][552]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.01-03.40.20:884][552]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.01-03.40.20:884][552]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.01-03.40.20:956][552]LogDerivedDataCache: Shutdown
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.01-03.40.20:956][552]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.01-03.40.20:957][552]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.01-03.40.20:957][552]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.01-03.40.20:957][552]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.01-03.40.20:957][552]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B274AAFA4-4639-C210-E3AC-6185E00137CF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=5ef87533485b0d8d79e011ba489749cb%7Cc573d65b8ff141b7a827532cbf121a84%7C840d79ed-61a9-417a-b8f9-500dc76fae26&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.01-03.40.20:969][552]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.01-03.40.20:971][552]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.01-03.40.20:972][552]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.01-03.40.20:972][552]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.01-03.40.20:972][552]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.01-03.40.20:972][552]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.01-03.40.20:972][552]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.01-03.40.20:972][552]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.01-03.40.20:972][552]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.01-03.40.20:973][552]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.01-03.40.20:973][552]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.01-03.40.20:973][552]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.01-03.40.20:973][552]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.01-03.40.20:973][552]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.01-03.40.20:973][552]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.01-03.40.20:973][552]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.01-03.40.20:974][552]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.01-03.40.20:974][552]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.01-03.40.20:974][552]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.01-03.40.20:977][552]LogExit: Exiting.
+[2017.10.01-03.40.21:002][552]Log file closed, 09/30/17 23:40:21

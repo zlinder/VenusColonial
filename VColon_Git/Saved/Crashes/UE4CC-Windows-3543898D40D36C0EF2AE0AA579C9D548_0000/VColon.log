@@ -1,0 +1,460 @@
+﻿Log file open, 09/25/17 22:00:28
+LogInit:Display: Running engine for game: VColon
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1742110284) SRandInit(-1742110284).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.099314
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.26-02.00.29:398][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.26-02.00.29:398][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.26-02.00.29:416][  0]LogInit: Computer: MSI
+[2017.09.26-02.00.29:416][  0]LogInit: User: bsteen
+[2017.09.26-02.00.29:416][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.26-02.00.29:416][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2017.09.26-02.00.29:417][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.26-02.00.29:417][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.26-02.00.29:417][  0]LogMemory: Process Physical Memory: 273.18 MB used, 273.18 MB peak
+[2017.09.26-02.00.29:417][  0]LogMemory: Process Virtual Memory: 261.14 MB used, 261.14 MB peak
+[2017.09.26-02.00.29:417][  0]LogMemory: Physical Memory: 5637.55 MB used,  10666.30 MB free, 16303.85 MB total
+[2017.09.26-02.00.29:417][  0]LogMemory: Virtual Memory: 624.15 MB used,  10666.30 MB free, 134217728.00 MB total
+[2017.09.26-02.00.30:305][  0]LogInit: Using OS detected language (en-US).
+[2017.09.26-02.00.30:305][  0]LogInit: Using OS detected locale (en-CA).
+[2017.09.26-02.00.30:309][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.26-02.00.31:784][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.26-02.00.31:882][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.09.26-02.00.31:882][  0]LogD3D11RHI:       2009/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.26-02.00.31:896][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.09.26-02.00.31:896][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.26-02.00.31:899][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.26-02.00.31:899][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.26-02.00.31:899][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.26-02.00.31:906][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.26-02.00.31:906][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2017.09.26-02.00.31:906][  0]LogWindows: EnumDisplayDevices:
+[2017.09.26-02.00.31:906][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.09.26-02.00.31:907][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.09.26-02.00.31:907][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.09.26-02.00.31:908][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.26-02.00.31:908][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.09.26-02.00.31:908][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.26-02.00.31:908][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.26-02.00.31:908][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.26-02.00.31:969][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.26-02.00.31:984][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.26-02.00.31:986][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../Users/bsteen/Desktop/VColon/Intermediate/Shaders/WorkingDirectory/1152/).
+[2017.09.26-02.00.31:986][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/bsteen/AppData/Local/Temp/UnrealShaderWorkingDir/7BA8B0364C2A4BF0211A43A9D324FDC0/'.
+[2017.09.26-02.00.31:986][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.26-02.00.33:625][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.26-02.00.33:710][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.26-02.00.33:826][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.26-02.00.33:951][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.26-02.00.34:072][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.26-02.00.34:175][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.26-02.00.34:284][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.26-02.00.34:423][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.26-02.00.34:549][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.26-02.00.34:654][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.26-02.00.34:774][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.26-02.00.34:907][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.26-02.00.35:004][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.26-02.00.35:086][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.26-02.00.35:230][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.26-02.00.35:443][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.26-02.00.35:444][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.26-02.00.35:556][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.26-02.00.35:673][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.26-02.00.35:713][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.26-02.00.35:847][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.26-02.00.35:946][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.26-02.00.36:013][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.26-02.00.36:080][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.26-02.00.36:080][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.26-02.00.37:120][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.26-02.00.37:243][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.26-02.00.37:243][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.26-02.00.37:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bsteen/Desktop/VColon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.26-02.00.37:244][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.26-02.00.37:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/bsteen/Desktop/VColon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.26-02.00.37:244][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.26-02.00.37:278][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.26-02.00.37:293][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bsteen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.26-02.00.37:310][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.26-02.00.37:311][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.26-02.00.37:313][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.26-02.00.37:313][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.26-02.00.37:907][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.26-02.00.38:034][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.26-02.00.38:323][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.26-02.00.38:457][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.26-02.00.38:600][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.26-02.00.38:600][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.26-02.00.38:600][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.26-02.00.39:888][  0]LogNetVersion: VColon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2307463867)
+[2017.09.26-02.00.40:007][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2017.09.26-02.00.40:130][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.067251 seconds
+[2017.09.26-02.00.40:136][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.26-02.00.40:136][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.26-02.00.40:136][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.26-02.00.40:278][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.26-02.00.45:270][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.26-02.00.45:334][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.26-02.00.46:192][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.26-02.00.47:115][  0]SourceControl: Info Source control is disabled
+[2017.09.26-02.00.47:119][  0]SourceControl: Info Source control is disabled
+[2017.09.26-02.00.47:266][  0]SourceControl: Info Source control is disabled
+[2017.09.26-02.00.47:397][  0]SourceControl: Info Source control is disabled
+[2017.09.26-02.00.48:684][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.26-02.00.50:071][  0]LogEngine: Initializing Engine...
+[2017.09.26-02.00.50:073][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.26-02.00.50:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.26-02.00.50:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.26-02.00.50:556][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.26-02.00.50:582][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.26-02.00.50:645][  0]LogInit: FAudioDevice initialized.
+[2017.09.26-02.00.50:693][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/bsteen/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.26-02.00.50:705][  0]LogInit: Texture streaming: Enabled
+[2017.09.26-02.00.50:837][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.26-02.00.51:391][  0]LogInit: Transaction tracking system initialized
+[2017.09.26-02.00.52:246][  0]BlueprintLog: New page: Editor Load
+[2017.09.26-02.00.54:293][  0]LocalizationService: Info Localization service is disabled
+[2017.09.26-02.00.55:890][  0]LogConsoleResponse:Display: 
+[2017.09.26-02.00.56:170][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.26-02.00.56:170][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.26-02.00.56:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Content/' took 0.07s
+[2017.09.26-02.00.58:157][  0]SourceControl: Info Source control is disabled
+[2017.09.26-02.00.58:157][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.26-02.00.58:158][  0]LightingResults: New page: Lighting Build
+[2017.09.26-02.00.58:274][  0]MapCheck: New page: Map Check
+[2017.09.26-02.00.58:274][  0]LightingResults: New page: Lighting Build
+[2017.09.26-02.00.59:436][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.09.26-02.00.59:441][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0032.72] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 12 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.26-02.00.59:441][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0032.72] Compile of TopDownCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.26-02.00.59:441][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0032.72] Compile of TopDownCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.26-02.00.59:452][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.09.26-02.00.59:457][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0032.73] Compile of TopDownCharacter successful, but with 1 Warning(s) [in 11 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.26-02.00.59:457][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0032.73] Compile of TopDownCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.26-02.00.59:457][  0]LogBlueprint:Warning: [Compiler TopDownCharacter] Warning [0032.73] Compile of TopDownCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2017.09.26-02.00.59:505][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning InputAction Event references unknown Action 'SetDestination' for  InputAction SetDestination
+[2017.09.26-02.00.59:514][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0032.79] Compile of TopDownController successful, but with 1 Warning(s) [in 17 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.26-02.00.59:514][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0032.79] Compile of TopDownController successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.26-02.00.59:514][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0032.79] Compile of TopDownController successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.26-02.00.59:525][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning InputAction Event references unknown Action 'SetDestination' for  InputAction SetDestination
+[2017.09.26-02.00.59:534][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0032.81] Compile of TopDownController successful, but with 1 Warning(s) [in 16 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.26-02.00.59:534][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0032.81] Compile of TopDownController successful, but with 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.26-02.00.59:534][  0]LogBlueprint:Warning: [Compiler TopDownController] Warning [0032.81] Compile of TopDownController successful, but with 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/TopDownController.TopDownController)
+[2017.09.26-02.01.00:176][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.26-02.01.00:191][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.26-02.01.00:212][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.26-02.01.00:332][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.145ms to complete.
+[2017.09.26-02.01.00:332][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.175
+[2017.09.26-02.01.00:525][  0]LogCollectionManager: Loaded 0 collections in 0.004227 seconds
+[2017.09.26-02.01.00:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Saved/Collections/' took 0.01s
+[2017.09.26-02.01.00:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Content/Developers/bsteen/Collections/' took 0.01s
+[2017.09.26-02.01.00:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/bsteen/Desktop/VColon/Content/Collections/' took 0.01s
+[2017.09.26-02.01.00:705][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.09.26-02.01.00:722][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2329 classes and 491 folders.
+[2017.09.26-02.01.00:919][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.09.26-02.01.01:005][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.09.26-02.01.01:114][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.26-02.01.01:169][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.26-02.01.01:175][  0]LogSlate: Took 0.000447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.26-02.01.01:178][  0]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.26-02.01.01:185][  0]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.26-02.01.01:313][  0]LogRenderer: Reallocating scene render targets to support 512x512 NumSamples 1 (Frame:1).
+[2017.09.26-02.01.01:341][  0]LogRenderer: Reallocating scene render targets to support 832x512 NumSamples 1 (Frame:1).
+[2017.09.26-02.01.01:430][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.26-02.01.01:566][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.26-02.01.01:566][  0]LogLoad: (Engine Initialization) Total time: 34.84 seconds
+[2017.09.26-02.01.01:566][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.71 seconds
+[2017.09.26-02.01.01:566][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.26-02.01.01:907][  0]LogOcInput: OculusInput pre-init called
+[2017.09.26-02.01.01:907][  0]LogHMD: Starting GearVRController plugin
+[2017.09.26-02.01.01:931][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.26-02.01.01:947][  0]LogSlate: Took 0.000605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.26-02.01.02:578][  2]LogAssetRegistry: Asset discovery search completed in 22.5931 seconds
+[2017.09.26-02.01.02:581][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.26-02.01.02:581][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.09.26-02.01.02:921][  3]LogSlate: Took 0.000657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.26-02.11.24:639][640]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.26-02.11.25:242][640]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.09.26-02.11.26:108][640]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.26-02.13.04:316][272]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/combatUI.combatUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/Equipment/UI_Equipment.UI_Equipment:WidgetTree.CanvasPanel_0
+[2017.09.26-02.13.04:316][272]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/combatUI.combatUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/Inventory/UI_Inventory.UI_Inventory:WidgetTree.CanvasPanel_0
+[2017.09.26-02.13.04:316][272]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/combatUI.combatUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:UI_Inventory_C_0.WidgetTree_5.CanvasPanel_0
+[2017.09.26-02.13.04:316][272]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/combatUI.combatUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/combatUI.combatUI_C:WidgetTree.CanvasPanel_0
+[2017.09.26-02.13.04:316][272]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/combatUI.combatUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/Equipment/UI_Equipment.UI_Equipment_C:WidgetTree.CanvasPanel_0
+[2017.09.26-02.13.04:316][272]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/combatUI.combatUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/Inventory/UI_Inventory.UI_Inventory_C:WidgetTree.CanvasPanel_0
+[2017.09.26-02.13.04:316][272]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/combatUI.combatUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:UI_Inventory_C_1.WidgetTree_6.CanvasPanel_0
+[2017.09.26-02.13.04:316][272]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/combatUI.combatUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:UI_Equipment_C_0.WidgetTree_9.CanvasPanel_0
+[2017.09.26-02.13.04:316][272]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/combatUI.combatUI:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:UI_Equipment_C_1.WidgetTree_18.CanvasPanel_0
+[2017.09.26-02.13.04:316][272]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/combatUI.combatUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (CanvasPanel /Engine/UMG/Editor/Transient.CanvasPanel_14).  Import failed...
+[2017.09.26-02.13.04:316][272]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2017.09.26-02.14.35:645][399]LogEditorTransaction: Undo Edit Properties
+[2017.09.26-02.14.36:069][416]Cmd: TRANSACTION UNDO
+[2017.09.26-02.14.36:069][416]LogEditorTransaction: Undo Edit Properties
+[2017.09.26-02.14.36:627][432]Cmd: TRANSACTION UNDO
+[2017.09.26-02.14.36:627][432]LogEditorTransaction: Undo Edit Properties
+[2017.09.26-02.16.42:246][429]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.030
+[2017.09.26-02.16.42:249][429]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Inventory/UI_Inventory] ([1] browsable assets)...
+[2017.09.26-02.16.42:250][429]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Inventory/UI_Inventory]
+[2017.09.26-02.16.42:250][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Inventory/UI_Inventory" FILE="../../../../../../Users/bsteen/Desktop/VColon/Saved/Autosaves/Game/UI/Inventory/UI_Inventory_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.26-02.16.42:508][429]LogSavePackage: Save=233.72ms
+[2017.09.26-02.16.42:508][429]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/UI_Inventory_Auto13D0FDE67425FA6AD4B3C0C98EA1D854E.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Saved/Autosaves/Game/UI/Inventory/UI_Inventory_Auto1.uasset'
+[2017.09.26-02.16.42:514][429]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Saved/Autosaves/Game/UI/Inventory/UI_Inventory_Auto1.uasset
+[2017.09.26-02.16.42:514][429]LogFileHelpers: Auto-saving content packages took 0.267
+[2017.09.26-02.16.55:067][392]BlueprintLog: New page: Compile UI_Inventory
+[2017.09.26-02.16.55:460][392]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.26-02.16.56:650][467]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.26-02.16.56:724][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.16.56:724][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.26-02.16.56:725][467]PIE: New page: PIE session: TopDownExampleMap (Sep 25, 2017, 6:16:56 PM)
+[2017.09.26-02.16.56:725][467]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.26-02.16.56:750][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025664s)
+[2017.09.26-02.16.56:752][467]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.26-02.16.56:752][467]LogPlayLevel: PIE: World Init took: (0.001769s)
+[2017.09.26-02.16.56:752][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027761s)
+[2017.09.26-02.16.56:798][467]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.26-02.16.56:856][467]LogInit: FAudioDevice initialized.
+[2017.09.26-02.16.56:909][467]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.26-02.16.56:916][467]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.25-22.16.56
+[2017.09.26-02.16.56:917][467]LogWorld: Bringing up level for play took: 0.006102
+[2017.09.26-02.16.57:027][467]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.09.26-02.16.57:030][467]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.594
+[2017.09.26-02.16.57:030][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.16.57:083][467]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.09.26-02.17.43:989][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.17.44:022][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.21.01:758][688]LogSlate: Took 0.018777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.26-02.21.37:925][264]LogEditorTransaction: Undo Remove Widget
+[2017.09.26-02.21.38:570][286]LogEditorTransaction: Undo Move Widget
+[2017.09.26-02.21.42:506][481]LogEditorTransaction: Undo Remove Widget
+[2017.09.26-02.21.44:472][545]LogEditorTransaction: Redo Remove Widget
+[2017.09.26-02.21.45:573][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Inventory/UI_Inventory" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset" SILENT=true
+[2017.09.26-02.21.45:917][574]LogSavePackage: Save=294.21ms
+[2017.09.26-02.21.45:917][574]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/UI_InventoryFFF92ECD4706691E7BA8759E7CB52666.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset'
+[2017.09.26-02.21.45:925][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset
+[2017.09.26-02.22.36:840][417]BlueprintLog: New page: Compile UI_Inventory
+[2017.09.26-02.22.37:215][417]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.26-02.22.39:032][563]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.26-02.22.39:053][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.22.39:053][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.26-02.22.39:053][563]PIE: New page: PIE session: TopDownExampleMap (Sep 25, 2017, 6:22:39 PM)
+[2017.09.26-02.22.39:053][563]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.26-02.22.39:072][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018180s)
+[2017.09.26-02.22.39:073][563]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.26-02.22.39:073][563]LogPlayLevel: PIE: World Init took: (0.001519s)
+[2017.09.26-02.22.39:073][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.019963s)
+[2017.09.26-02.22.39:121][563]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.26-02.22.39:178][563]LogInit: FAudioDevice initialized.
+[2017.09.26-02.22.39:218][563]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.26-02.22.39:223][563]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.25-22.22.39
+[2017.09.26-02.22.39:224][563]LogWorld: Bringing up level for play took: 0.004384
+[2017.09.26-02.22.39:227][563]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.791
+[2017.09.26-02.22.39:228][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.23.17:913][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.23.17:992][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.24.17:371][163]LogSlate: Took 0.000503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.26-02.24.33:175][220]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  Event Construct  and was replaced as a Custom Event!
+[2017.09.26-02.24.33:245][220]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  Event Construct  and was replaced as a Custom Event!
+[2017.09.26-02.24.43:332][723]BlueprintLog: New page: Compile UI_Inventory
+[2017.09.26-02.24.43:404][723]LogBlueprint:Error: [Compiler UI_Inventory] Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:404][723]LogBlueprint:Error: [Compiler UI_Inventory] Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:404][723]LogBlueprint:Error: [Compiler UI_Inventory] Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:404][723]LogBlueprint:Error: [Compiler UI_Inventory] Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:404][723]LogBlueprint:Error: [Compiler UI_Inventory] Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:404][723]LogBlueprint:Error: [Compiler UI_Inventory] Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:404][723]LogBlueprint:Error: [Compiler UI_Inventory] Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:771][723]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:771][723]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:771][723]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:771][723]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:771][723]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:771][723]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:771][723]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetEquipmentSlot" in 'UI_Inventory_C'.
+Make sure 'UI_Inventory_C' has been compiled for  Set Equipment Slot
+[2017.09.26-02.24.43:771][723]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.26-02.24.43:772][723]LogBlueprint:Warning: [Compiler UI_Inventory] Warning [1457.05] Compile of UI_Inventory failed. 7 Fatal Issue(s) 0 Warning(s) [in 439 ms] (/Game/UI/Inventory/UI_Inventory.UI_Inventory)
+[2017.09.26-02.24.44:569][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Inventory/UI_Inventory" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset" SILENT=true
+[2017.09.26-02.24.44:815][751]LogSavePackage: Save=228.97ms
+[2017.09.26-02.24.44:815][751]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/UI_Inventory3D8716664E020DD9F83AE5B380466F06.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset'
+[2017.09.26-02.24.44:822][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset
+[2017.09.26-02.26.30:823][376]LogSlate: Took 0.000398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.26-02.26.52:069][704]BlueprintLog: New page: Compile UI_Equipment
+[2017.09.26-02.26.52:256][704]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.26-02.26.52:866][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Equipment/UI_Equipment" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Equipment/UI_Equipment.uasset" SILENT=true
+[2017.09.26-02.26.52:996][726]LogSavePackage: Save=107.74ms
+[2017.09.26-02.26.52:996][726]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/UI_Equipment69F0AF2C444469F1348C9BA501E94515.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Equipment/UI_Equipment.uasset'
+[2017.09.26-02.26.52:999][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Equipment/UI_Equipment.uasset
+[2017.09.26-02.27.18:628][571]BlueprintLog: New page: Compile UI_Inventory
+[2017.09.26-02.27.18:697][571]LogBlueprint:Error: [Compiler UI_Inventory] Error This blueprint (self) is not a UI_EquipmentSlot_C, therefore ' Target ' must have a connection.
+[2017.09.26-02.27.18:697][571]LogBlueprint:Error: [Compiler UI_Inventory] Error This blueprint (self) is not a UI_EquipmentSlot_C, therefore ' Target ' must have a connection.
+[2017.09.26-02.27.18:697][571]LogBlueprint:Error: [Compiler UI_Inventory] Error This blueprint (self) is not a UI_EquipmentSlot_C, therefore ' Target ' must have a connection.
+[2017.09.26-02.27.18:697][571]LogBlueprint:Error: [Compiler UI_Inventory] Error This blueprint (self) is not a UI_EquipmentSlot_C, therefore ' Target ' must have a connection.
+[2017.09.26-02.27.18:698][571]LogBlueprint:Error: [Compiler UI_Inventory] Error Variable node  Set ItemInfo  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.26-02.27.18:698][571]LogBlueprint:Error: [Compiler UI_Inventory] Error Variable node  Get EquipmentItemText  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.26-02.27.18:698][571]LogBlueprint:Error: [Compiler UI_Inventory] Error Variable node  Get EquipmentItemButton  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.26-02.27.18:698][571]LogBlueprint:Error: [Compiler UI_Inventory] Error Variable node  Set ItemInfo  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.26-02.27.19:049][571]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UI_EquipmentSlot_C, therefore ' Target ' must have a connection.
+[2017.09.26-02.27.19:049][571]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UI_EquipmentSlot_C, therefore ' Target ' must have a connection.
+[2017.09.26-02.27.19:049][571]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UI_EquipmentSlot_C, therefore ' Target ' must have a connection.
+[2017.09.26-02.27.19:049][571]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UI_EquipmentSlot_C, therefore ' Target ' must have a connection.
+[2017.09.26-02.27.19:050][571]BlueprintEditorCompileResults:Error: Error Variable node  Set ItemInfo  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.26-02.27.19:050][571]BlueprintEditorCompileResults:Error: Error Variable node  Get EquipmentItemText  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.26-02.27.19:050][571]BlueprintEditorCompileResults:Error: Error Variable node  Get EquipmentItemButton  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.26-02.27.19:050][571]BlueprintEditorCompileResults:Error: Error Variable node  Set ItemInfo  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.26-02.27.19:050][571]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.26-02.27.19:050][571]LogBlueprint:Warning: [Compiler UI_Inventory] Warning [1612.32] Compile of UI_Inventory failed. 8 Fatal Issue(s) 0 Warning(s) [in 421 ms] (/Game/UI/Inventory/UI_Inventory.UI_Inventory)
+[2017.09.26-02.27.19:580][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Inventory/UI_Inventory" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset" SILENT=true
+[2017.09.26-02.27.19:935][586]LogSavePackage: Save=311.56ms
+[2017.09.26-02.27.19:935][586]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/UI_InventoryCA14F7774E16A1C21E76B4BEAAE08ECE.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset'
+[2017.09.26-02.27.19:942][586]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset
+[2017.09.26-02.27.41:525][875]BlueprintLog: New page: Compile UI_Inventory
+[2017.09.26-02.27.41:863][875]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.26-02.27.42:628][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Inventory/UI_Inventory" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset" SILENT=true
+[2017.09.26-02.27.43:001][901]LogSavePackage: Save=336.87ms
+[2017.09.26-02.27.43:001][901]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/UI_InventoryE31955344FB74D5FE0175597D25BB144.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset'
+[2017.09.26-02.27.43:014][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset
+[2017.09.26-02.27.46:391][ 93]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.26-02.27.46:417][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.27.46:417][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.26-02.27.46:417][ 93]PIE: New page: PIE session: TopDownExampleMap (Sep 25, 2017, 6:27:46 PM)
+[2017.09.26-02.27.46:418][ 93]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.26-02.27.46:444][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025828s)
+[2017.09.26-02.27.46:445][ 93]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.26-02.27.46:445][ 93]LogPlayLevel: PIE: World Init took: (0.001314s)
+[2017.09.26-02.27.46:445][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027379s)
+[2017.09.26-02.27.46:491][ 93]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.26-02.27.46:549][ 93]LogInit: FAudioDevice initialized.
+[2017.09.26-02.27.46:591][ 93]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.26-02.27.46:599][ 93]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.25-22.27.46
+[2017.09.26-02.27.46:599][ 93]LogWorld: Bringing up level for play took: 0.005728
+[2017.09.26-02.27.46:604][ 93]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.168
+[2017.09.26-02.27.46:605][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.27.55:310][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.27.55:388][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.28.56:335][  3]LogEditorTransaction: Undo Create Pin Link
+[2017.09.26-02.28.56:685][ 18]LogEditorTransaction: Undo Create Pin Link
+[2017.09.26-02.28.56:983][ 22]LogEditorTransaction: Undo Create Pin Link
+[2017.09.26-02.28.57:333][ 28]LogEditorTransaction: Undo Create Pin Link
+[2017.09.26-02.28.57:783][ 37]LogEditorTransaction: Undo Create Pin Link
+[2017.09.26-02.28.58:166][ 43]LogEditorTransaction: Undo Create Pin Link
+[2017.09.26-02.29.23:829][ 88]BlueprintLog: New page: Compile UI_Inventory
+[2017.09.26-02.29.24:065][ 88]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.26-02.29.24:748][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Inventory/UI_Inventory" FILE="../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset" SILENT=true
+[2017.09.26-02.29.25:131][107]LogSavePackage: Save=344.56ms
+[2017.09.26-02.29.25:131][107]LogSavePackage: Moving '../../../../../../Users/bsteen/Desktop/VColon/Saved/UI_Inventory9D21B1804B80F9BFF4C1F4A895BE7284.tmp' to '../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset'
+[2017.09.26-02.29.25:139][107]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/bsteen/Desktop/VColon/Content/UI/Inventory/UI_Inventory.uasset
+[2017.09.26-02.29.30:295][406]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.26-02.29.30:318][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.29.30:318][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.26-02.29.30:318][406]PIE: New page: PIE session: TopDownExampleMap (Sep 25, 2017, 6:29:30 PM)
+[2017.09.26-02.29.30:318][406]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.26-02.29.30:348][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028979s)
+[2017.09.26-02.29.30:349][406]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.26-02.29.30:349][406]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2017.09.26-02.29.30:349][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.030619s)
+[2017.09.26-02.29.30:397][406]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.26-02.29.30:452][406]LogInit: FAudioDevice initialized.
+[2017.09.26-02.29.30:501][406]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.26-02.29.30:508][406]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.25-22.29.30
+[2017.09.26-02.29.30:508][406]LogWorld: Bringing up level for play took: 0.004967
+[2017.09.26-02.29.30:518][406]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.082
+[2017.09.26-02.29.30:518][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.29.41:565][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.29.41:642][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.26-02.31.17:050][374]LogUObjectBase:Warning: Object is not registered
+[2017.09.26-02.31.17:208][374]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.157 s
+[2017.09.26-02.31.17:208][374]LogOutputDevice:Error: === Handled ensure: ===
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: 
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: Stack: 
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008338E1C6
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008313B7D2
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000083151D96
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000815172D6
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000006D07D27B
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000064DE24EA
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000064C872CC
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000064C8A6D9
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000064DA80A5
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000824CDB57
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000824D4B61
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000826F48D3
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008252F604
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000825077FC
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000824F814C
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000833814C0
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008336B6E1
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000833832EB
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000083367A32
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: USER32.dll!0x00000000B79F1C24
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: USER32.dll!0x00000000B79F156C
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000083383BF6
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor.exe!0x00000000DA10DB44
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor.exe!0x00000000DA0FF0B0
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor.exe!0x00000000DA0FF12A
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor.exe!0x00000000DA110CF9
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: UE4Editor.exe!0x00000000DA1125F7
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: KERNEL32.DLL!0x00000000B7358364
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: ntdll.dll!0x00000000B98E7091
+[2017.09.26-02.31.17:209][374]LogOutputDevice:Error: 
+[2017.09.26-02.31.17:217][374]LogStats:                SubmitErrorReport -  0.000 s
